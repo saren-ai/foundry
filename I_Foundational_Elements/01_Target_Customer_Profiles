@@ -1,0 +1,144 @@
+# Target customer profiles
+
+## What this generates
+
+3-5 detailed buyer personas that combine company-level characteristics (ICP) with individual motivations, behaviors, and decision-making patterns. This is the foundation for everything else—messaging, content strategy, sales enablement, and segmentation.
+
+## Why you need this
+
+You can't write compelling copy, build effective campaigns, or train your sales team without knowing exactly who you're talking to. Generic "mid-market CTO" descriptions don't cut it. These personas force you to get specific about the humans behind the job titles.
+
+## Before you start
+
+Gather whatever customer intelligence you have:
+- Sales call notes or recordings
+- Customer interviews or survey data  
+- Win/loss analysis
+- Support tickets that reveal pain points
+- LinkedIn profiles of your best customers
+- Competitive intel on who your rivals are targeting
+
+The better your inputs, the sharper your personas. If you're pre-revenue, lean on founder insights, industry research, and interviews with people who match your target profile.
+
+## The prompt
+
+Copy everything below this line and paste it into your LLM. Fill in your specific context where indicated.
+
+---
+```
+You are an expert marketing strategist specializing in customer research and persona development. Your task is to create comprehensive Target Customer Profiles using the Ideal Customer Profile (ICP) + Buyer Persona framework.
+
+## Your objective
+
+Develop 3-5 detailed buyer personas that combine firmographic/demographic data (ICP level) with deep psychographic insights (persona level). Each persona should provide actionable intelligence for messaging, sales, and content strategies.
+
+## Framework approach
+
+**ICP layer:** Broader organizational and demographic characteristics that define the target market
+
+**Persona layer:** Individual motivations, behaviors, pain points, and decision-making patterns within that ICP
+
+## Required output for each persona
+
+Create a structured profile containing:
+
+### 1. Persona overview
+- Persona name (e.g., "Strategic Sarah - VP of Operations")
+- Primary role/title
+- Department/function
+- Seniority level
+
+### 2. Demographics & firmographics (ICP layer)
+- Company size (employees/revenue)
+- Industry/vertical
+- Geographic location
+- Technology stack/maturity level
+- Annual budget authority
+
+### 3. Professional context
+- Day-to-day responsibilities
+- Key performance indicators (KPIs) they're measured on
+- Reporting structure (who they report to, who reports to them)
+- Career aspirations
+
+### 4. Pain points & challenges
+- Top 3-5 business problems they face
+- Personal frustrations in their role
+- Consequences of not solving these problems
+- Current workarounds or inadequate solutions
+
+### 5. Goals & motivations
+- Primary business objectives
+- Personal success metrics
+- What "winning" looks like for them
+- Career advancement motivations
+
+### 6. Buying behavior
+- Typical buying triggers (what prompts them to seek solutions)
+- Information gathering preferences (search, peer recommendations, analyst reports, etc.)
+- Content consumption habits (formats, channels, topics)
+- Decision-making criteria and priorities
+
+### 7. Objections & barriers
+- Common objections to purchasing solutions like yours
+- Risk concerns (financial, operational, career)
+- Competitive alternatives they consider
+- Internal barriers (budget, approval, change resistance)
+
+### 8. Decision process
+- Role in the buying committee (champion, influencer, decision-maker, gatekeeper, end-user)
+- Other stakeholders involved in the decision
+- Typical evaluation timeline
+- Approval requirements and budget cycles
+
+### 9. Buying journey stages
+
+Map their needs and behaviors across:
+- **Early exploration:** Symptoms, trigger events, initial research
+- **Evaluation:** Solution comparison, vendor assessment, stakeholder alignment
+- **Decision:** Final criteria, negotiation points, implementation concerns
+
+### 10. Messaging & engagement recommendations
+- Key value propositions that resonate
+- Recommended messaging tone and style
+- Preferred communication channels
+- Content types by journey stage
+- Ideal touchpoint cadence
+
+## Quality standards
+
+- Base personas on real customer patterns from the provided inputs
+- Avoid generic descriptions; be specific and actionable
+- Include direct quotes or language patterns where possible
+- Highlight differences between personas to guide segmentation
+- Ensure each persona has clear implications for GTM strategy
+
+## Context about our company
+
+[Paste your company description, product/service details, and any relevant market positioning here]
+
+## Customer intelligence inputs
+
+[Paste any research, interview notes, sales insights, or customer data you have here]
+
+## Specific instructions
+
+[Add any additional requirements: number of personas, priority segments, industries to focus on, etc.]
+```
+
+---
+
+## After you run it
+
+Review the output for BS. If a persona feels like it could describe anyone, push back and ask for more specificity. Real personas should feel like you could pick them out of a LinkedIn search.
+
+Use these to:
+- Brief your copywriter or content team
+- Build sales talk tracks and battlecards
+- Prioritize product roadmap items
+- Segment your email list or ad targeting
+- Align your entire team on who you're actually selling to
+
+## Examples
+
+[Coming soon—sample persona outputs from real consulting engagements]
