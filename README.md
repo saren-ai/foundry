@@ -4,58 +4,65 @@ The essential prompt matrix for building B2B marketing infrastructure from scrat
 
 ## What this is
 
-Thirteen battle-tested prompts that generate the foundational documents every B2B SaaS company needs—but most skip because they don't know where to start. Think of this as the scaffolding you need before you can build campaigns, enablement, or any go-to-market motion that actually works.
+Twenty-one battle-tested prompts that generate the foundational documents every B2B SaaS company needs—but most skip because they don't know where to start. Think of this as the scaffolding you need before you can build campaigns, enablement, or any go-to-market motion that actually works.
 
 Built for early-stage teams who need to move fast but can't afford to build on quicksand.
 
 ## What's inside
 
-### I. Foundational elements
-- **Target customer profiles** — who you're selling to (and who you're ignoring) [Claude Artifact](https://claude.ai/public/artifacts/1cc968a7-f72a-4401-860b-e77eb49df75f)
+### L1. Foundational Elements
 
-- **Market & competitive analysis** — where you fit in the landscape [Claude Artifact](https://claude.ai/public/artifacts/c4481802-41fa-4853-8ff6-da71112dbf56)
+- **01. Target Customer Profiles** — who you're selling to (and who you're ignoring)
+- **02. Market & Competitive Analysis** — where you fit in the landscape
 
-### II. Core identity
-- **Mission, vision, values** — why you exist beyond revenue
-- **Brand voice & tone** — how you sound when you show up
-- **Brand personality & archetype** — the character behind your company
+### L2. Core Identity
 
-### III. Core message
-- **Unique value propositions** — what makes you worth paying attention to
-- **Brand positioning statement** — your stake in the ground
-- **Brand promise** — what customers can count on
+- **03. Mission, Vision, Values** — why you exist beyond revenue
+- **04. Brand Voice & Tone** — how you sound when you show up
+- **05. Brand Personality & Archetype** — the character behind your company
 
-### IV. Message articulation
-- **Core messaging pillars** — 3-5 themes that anchor everything you say
-- **Message map** — how your story flows from pillars to proof points
-- **Elevator pitch & boilerplate** — the 30-second and 100-word versions
-- **Example communications** — templates that show (don't just tell) your voice
-- **Taglines & slogans** — the hooks that stick
+### L3. Core Message
 
-### V. Supporting context
-- **Sales methodology** — how you actually close deals
-- **Industry context** — the market forces and trends shaping your category
-- **Product/service catalog** — what you sell and how you describe it
+- **06. Unique Value Propositions** — what makes you worth paying attention to
+- **07. Brand Positioning Statement** — your stake in the ground
+- **09. Brand Promise** — what customers can count on
 
-### VI. Activation & governance
-- **Brand guidelines master document** — the rulebook for consistent execution
-- **Communication strategy** — how and where you show up
-- **Training & enablement materials** — how to get your team speaking the same language
+### L4. Message Articulation
 
-### VII. Evolution & refinement
-- **Performance measurement framework** — how you know if this stuff is working
-- **Review & iteration protocol** — how you keep it fresh without starting over
+- **09. Core Messaging Pillars** — 3-5 themes that anchor everything you say
+- **10. Message Map** — how your story flows from pillars to proof points
+- **11. Elevator Pitch & Boilerplate** — the 30-second and 100-word versions
+- **12. Example Communications** — templates that show (don't just tell) your voice
+- **13. Taglines & Slogans** — the hooks that stick
+
+### L5. Supporting Context
+
+- **14. Sales Methodology** — how you actually close deals
+- **15. Industry Context** — the market forces and trends shaping your category
+- **16. Product/Service Catalog** — what you sell and how you describe it
+
+### L6. Activation & Governance
+
+- **17. Brand Guidelines Master Document** — the rulebook for consistent execution
+- **18. Communication Strategy** — how and where you show up
+- **19. Training & Enablement Materials** — how to get your team speaking the same language
+
+### L7. Evolution & Refinement
+
+- **20. Performance Measurement Framework** — how you know if this stuff is working
+- **21. Review & Iteration Protocol** — how you keep it fresh without starting over
 
 ## How to use this
 
-Each artifact lives in its own directory with:
-- A prompt template you can copy/paste into your AI tool of choice
-- Context on why this document matters
-- Examples of what good looks like
+Each prompt lives in its own file within the seven layer folders:
 
-Start at the top. Don't skip ahead. These build on each other.
+- **Prompt template** you can copy/paste into your AI tool of choice
+- **Context** on why this document matters
+- **Examples** of what good looks like
 
-Expect to spend 60–90 minutes per artifact if you're doing it right. Block the time, gather your team's input, and don't settle for generic outputs. The prompts are designed to pull out what makes *your* company different—but you have to show up with the raw material.
+Start at Layer 1 and work through sequentially. Don't skip ahead. These build on each other.
+
+Expect to spend 60–90 minutes per prompt if you're doing it right. Block the time, gather your team's input, and don't settle for generic outputs. The prompts are designed to pull out what makes your company different—but you have to show up with the raw material.
 
 ## Who this is for
 
@@ -68,4 +75,4 @@ Expect to spend 60–90 minutes per artifact if you're doing it right. Block the
 
 This repo is part of the Zero to GTM Motion Playbook—a systematic consulting framework for early-stage B2B SaaS companies. If you need hands-on help building this out (or want someone to QA your outputs), hit me up.
 
-Built with ⚡ by [Saren](https://saren.ai)
+Built with ⚡ by [Saren](https://saren.ai/)
