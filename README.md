@@ -1,10 +1,10 @@
 # Saren's Marketing Foundry
 
-The essential prompt matrix for building B2B marketing infrastructure from scratch.
+The essential prompt matrix for building B2B marketing messaging infrastructure from scratch.
 
 ## What this is
 
-Twenty-one battle-tested prompts that generate the foundational documents every B2B SaaS company needs—but most skip because they don't know where to start. Think of this as the scaffolding you need before you can build campaigns, enablement, or any go-to-market motion that actually works.
+Twenty-one battle-tested prompts that generate the foundational documents every B2B SaaS company needs—but most skip because they don't know where to start. Think of this as the scaffolding you need before you can build campaigns, enablement, or any go-to-market motion that is sustainable over time, and actually helps get things done.
 
 Built for early-stage teams who need to move fast but can't afford to build on quicksand.
 
