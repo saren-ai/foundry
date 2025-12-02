@@ -25,32 +25,32 @@ Built for early-stage teams who need to move fast but can't afford to build on q
 
 - **[06. Unique Value Propositions](L3_Core_Message/06_Unique_Value_Propositions)** — what makes you worth paying attention to
 - **[07. Brand Positioning Statement](L3_Core_Message/07_Brand_Positioning_Statement)** — your stake in the ground
-- **[09. Brand Promise](L3_Core_Message/09_Brand_Promise)** — what customers can count on
+- **[08. Brand Promise](L3_Core_Message/08_Brand_Promise)** — what customers can count on
 
 ### L4. Message Articulation
 
-- **[09. Core Messaging Pillars](L4_Message_Articulation/10_Core_Messaging_Pillars)** — 3-5 themes that anchor everything you say
-- **[10. Message Map](L4_Message_Articulation/11_Message_Map)** — how your story flows from pillars to proof points
-- **[11. Elevator Pitch & Boilerplate](L4_Message_Articulation/12_Elevator_Pitch_&_Boilerplate)** — the 30-second and 100-word versions
-- **[12. Example Communications](L4_Message_Articulation/13_Example_Communications)** — templates that show (don't just tell) your voice
-- **[13. Taglines & Slogans](L4_Message_Articulation/14_Taglines_&_Slogans)** — the hooks that stick
+- **[09. Core Messaging Pillars](L4_Message_Articulation/09_Core_Messaging_Pillars)** — 3-5 themes that anchor everything you say
+- **[10. Message Map](L4_Message_Articulation/10_Message_Map)** — how your story flows from pillars to proof points
+- **[11. Elevator Pitch & Boilerplate](L4_Message_Articulation/11_Elevator_Pitch_&_Boilerplate)** — the 30-second and 100-word versions
+- **[12. Example Communications](L4_Message_Articulation/12_Example_Communications)** — templates that show (don't just tell) your voice
+- **[13. Taglines & Slogans](L4_Message_Articulation/13_Taglines_&_Slogans)** — the hooks that stick
 
 ### L5. Supporting Context
 
-- **[14. Sales Methodology](L5_Supporting_Context/16_Sales_Methodology)** — how you actually close deals
-- **[15. Industry Context](L5_Supporting_Context/15_Industry_Context)** — the market forces and trends shaping your category
+- **[14. Industry Context](L5_Supporting_Context/14_Industry_Context)** — the market forces and trends shaping your category
+- **[15. Sales Methodology](L5_Supporting_Context/15_Sales_Methodology)** — how you actually close deals
 - **[16. Product/Service Catalog](L5_Supporting_Context/16_Product-Service_Catalog)** — what you sell and how you describe it
 
 ### L6. Activation & Governance
 
-- **[17. Brand Guidelines Master Document](L6_Activation_&_Governance/18_Brand_Guidelines_Master)** — the rulebook for consistent execution
-- **[18. Communication Strategy](L6_Activation_&_Governance/19_Communication_Strategy)** — how and where you show up
-- **[19. Training & Enablement Materials](L6_Activation_&_Governance/20_Training_&_Enablement)** — how to get your team speaking the same language
+- **[17. Brand Guidelines Master Document](L6_Activation_&_Governance/17_Brand_Guidelines_Master)** — the rulebook for consistent execution
+- **[18. Communication Strategy](L6_Activation_&_Governance/18_Communication_Strategy)** — how and where you show up
+- **[19. Training & Enablement Materials](L6_Activation_&_Governance/19_Training_&_Enablement)** — how to get your team speaking the same language
 
 ### L7. Evolution & Refinement
 
-- **[20. Performance Measurement Framework](L7_Evolution_&_Refinement/21_Performance_Measurement)** — how you know if this stuff is working
-- **[21. Review & Iteration Protocol](L7_Evolution_&_Refinement/22_Review_&_Iteration)** — how you keep it fresh without starting over
+- **[20. Performance Measurement Framework](L7_Evolution_&_Refinement/20_Performance_Measurement)** — how you know if this stuff is working
+- **[21. Review & Iteration Protocol](L7_Evolution_&_Refinement/21_Review_&_Iteration)** — how you keep it fresh without starting over
 
 ## How to use this
 
