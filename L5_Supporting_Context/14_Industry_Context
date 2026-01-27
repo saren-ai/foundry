@@ -24,17 +24,17 @@ Fill out this form before running the prompt. The more specific and detailed you
 
 ### Market & industry basics
 
-**{{INDUSTRY_VERTICAL}}**  
+**{{icpIndustries}}**  
 What industry or vertical market does your company operate in? Be as specific as possible.  
 Examples: "Enterprise SaaS for financial services compliance," "Healthcare technology for remote patient monitoring," "Sales enablement software for B2B mid-market," "API infrastructure for fintech"
 
-**{{COMPANY_STAGE}}**  
+**{{companyStage}}**  
 Where is your company in its lifecycle? This helps contextualize competitive positioning within market forces.  
 Options: Startup (pre-Series A), Growth stage (Series A-C), Established (profitable, scaling), Mature (market leader, stable)
 
 ### Market dynamics
 
-**{{KEY_TRENDS}}**  
+**{{industryTrends}}**  
 What are the 3-5 most significant trends currently driving change in your industry? Consider technological shifts, buyer behavior changes, economic factors, competitive dynamics.  
 Examples:  
 - "Remote work forcing shift from in-office to distributed sales team workflows"  
@@ -42,13 +42,13 @@ Examples:
 - "Regulatory pressure (GDPR, CCPA) making data privacy a buying criteria"  
 - "Economic downturn increasing scrutiny on ROI and faster time-to-value"
 
-**{{REGULATORY_REQUIREMENTS}}**  
+**{{regulatoryRequirements}}**  
 What regulations, compliance standards, or legal requirements apply to your business or your customers? Include industry-specific regulations, certification requirements, standards bodies.  
 Examples: "SOC 2 Type II, GDPR compliance for EU customers, HIPAA for healthcare clients, FedRAMP for government contracts, ISO 27001 certification"
 
 ### Language & perception
 
-**{{INDUSTRY_TERMINOLOGY}}**  
+**{{industryTerminology}}**  
 What specialized terminology, jargon, acronyms, or insider language is used in your industry? Include technical terms, industry buzzwords, terms that signal expertise, and phrases to avoid.  
 Examples:  
 - "Sales velocity, win rate, sales cycle length (insider terms buyers use)"  
@@ -56,7 +56,7 @@ Examples:
 - "CRM, ACV, ARR, MRR, NDR (acronyms that need no explanation in our space)"  
 - "Avoid: 'game-changing,' 'revolutionary,' 'world-class' (generic marketing speak)"
 
-**{{COMMON_MISCONCEPTIONS}}**  
+**{{commonMisconceptions}}**  
 What are the most common myths, misconceptions, or mistaken beliefs your prospects have about the problem space, solutions, or your category?  
 Examples:  
 - "Myth: 'Sales enablement is just a content library.' Reality: It's about behavior change and rep consistency"  
@@ -165,16 +165,16 @@ Deliver your analysis as a structured document with:
 [Paste all your prepared inputs here]
 
 ### Market & industry basics
-- Industry vertical: {{INDUSTRY_VERTICAL}}
-- Company stage: {{COMPANY_STAGE}}
+- Industry vertical: {{icpIndustries}}
+- Company stage: {{companyStage}}
 
 ### Market dynamics
-- Key trends: {{KEY_TRENDS}}
-- Regulatory requirements: {{REGULATORY_REQUIREMENTS}}
+- Key trends: {{industryTrends}}
+- Regulatory requirements: {{regulatoryRequirements}}
 
 ### Language & perception
-- Industry terminology: {{INDUSTRY_TERMINOLOGY}}
-- Common misconceptions: {{COMMON_MISCONCEPTIONS}}
+- Industry terminology: {{industryTerminology}}
+- Common misconceptions: {{commonMisconceptions}}
 ```
 
 ---
