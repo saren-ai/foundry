@@ -25,19 +25,19 @@ Fill out this form before running the prompt. The more specific your goals and c
 
 ### Business context
 
-**{{BUSINESS_GOALS}}**  
+**{{businessGoals}}**  
 What are your primary business objectives and specific growth targets for the next 12-24 months?  
 Examples:  
 - "Increase revenue from $5M to $10M ARR, expand from mid-market to enterprise segment, launch 2 new products, achieve 95% gross retention rate"  
 - "Double pipeline from $20M to $40M, reduce CAC by 20%, increase average deal size from $50K to $75K, enter European market"
 
-**{{CURRENT_METRICS}}**  
+**{{currentMetrics}}**  
 What metrics are you currently tracking, and what are your baseline performance levels?  
 Examples:  
 - "Monthly website visitors: 50K, MQL to SQL conversion: 18%, Average sales cycle: 90 days, Customer acquisition cost: $8,500, NPS: 42, Email open rate: 24%, LinkedIn engagement rate: 2.3%"  
 - "We track basic Google Analytics (traffic, conversions) and Salesforce pipeline metrics, but don't have sophisticated attribution or brand health tracking"
 
-**{{BIGGEST_BLIND_SPOTS}}**  
+**{{blindSpots}}**  
 Where do you currently lack visibility or insights in your marketing performance?  
 Examples:  
 - "Don't know which marketing channels drive highest quality pipeline—just track first-touch attribution"  
@@ -47,26 +47,26 @@ Examples:
 
 ### Operational context
 
-**{{AVAILABLE_TOOLS}}**  
+**{{toolsAvailable}}**  
 What analytics platforms, CRM systems, marketing automation tools, and data sources do you currently use?  
 Examples:  
 - "Google Analytics 4, HubSpot (CRM + marketing automation), Salesforce, LinkedIn Campaign Manager, Google Ads, SEMrush, no BI tool yet"  
 - "Basic tech stack: Google Analytics, Mailchimp, social platform native analytics. Budget for one new tool if needed"  
 - "Enterprise stack: Salesforce + Marketo + Tableau + 6sense + Gong + full martech suite"
 
-**{{TEAM_STRUCTURE}}**  
+**{{teamStructure}}**  
 Who are the team members involved in measurement and reporting, and what are their roles?  
 Examples:  
 - "Marketing Director (owns strategy), Digital Marketing Manager (runs campaigns), Content Lead (creates content), no dedicated analyst—Director handles reporting"  
 - "VP Marketing, Demand Gen Manager, Content Marketing Manager, Marketing Ops Analyst (part-time), Sales Ops Manager (partner for attribution)"
 
-**{{REPORTING_AUDIENCE}}**  
+**{{reportingAudience}}**  
 Who are the key stakeholders who will consume these reports, and what do they care about?  
 Examples:  
 - "CEO (cares about pipeline and ROI), CFO (cares about budget efficiency), VP Sales (cares about lead quality and velocity), Board (cares about brand health and market position quarterly)"  
 - "Just founder + small team for now—need simple dashboards we can all understand"
 
-**{{REPORTING_FREQUENCY}}**  
+**{{reportingCadence}}**  
 What is your desired cadence for different types of reporting?  
 Examples:  
 - "Daily campaign snapshots for active campaigns, weekly channel performance review with marketing team, monthly comprehensive review with CEO, quarterly board presentation"  
@@ -274,15 +274,15 @@ Include a change management process for introducing new metrics or retiring irre
 [Paste all your prepared inputs here]
 
 ### Business context
-- Business goals: {{BUSINESS_GOALS}}
-- Current metrics: {{CURRENT_METRICS}}
-- Biggest blind spots: {{BIGGEST_BLIND_SPOTS}}
+- Business goals: {{businessGoals}}
+- Current metrics: {{currentMetrics}}
+- Biggest blind spots: {{blindSpots}}
 
 ### Operational context
-- Available tools: {{AVAILABLE_TOOLS}}
-- Team structure: {{TEAM_STRUCTURE}}
-- Reporting audience: {{REPORTING_AUDIENCE}}
-- Reporting frequency: {{REPORTING_FREQUENCY}}
+- Available tools: {{toolsAvailable}}
+- Team structure: {{teamStructure}}
+- Reporting audience: {{reportingAudience}}
+- Reporting frequency: {{reportingCadence}}
 ```
 
 ---
