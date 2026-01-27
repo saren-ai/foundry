@@ -10,7 +10,7 @@ Built for early-stage teams who need to move fast but can't afford to build on q
 
 ## What's inside
 
-### L1. Foundational Elements
+### L1. Foundational Elementsxq
 
 - **[01. Target Customer Profiles](L1_Foundational_Elements/01_Target_Customer_Profiles)** — who you're selling to (and who you're ignoring)
 - **[02. Market & Competitive Analysis](L1_Foundational_Elements/02_Market_&_Competitive_Analysis)** — where you fit in the landscape
