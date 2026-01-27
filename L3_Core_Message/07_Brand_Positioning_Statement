@@ -24,46 +24,46 @@ Fill out this form before running the prompt. The more specific and evidence-bas
 
 ### Company basics
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your legal entity or product name
 
-**{{PRODUCT_SERVICE_DESCRIPTION}}**  
+**{{productDescription}}**  
 What you sell or provide. Describe it in 50-150 words, focusing on what it does and the problem it solves, not feature lists.
 
-**{{PRODUCT_CATEGORY}}**  
+**{{category}}**  
 How do you currently describe your market category?  
 Examples: "CRM for small businesses," "AI-powered code review platform," "workflow automation software for healthcare," "API infrastructure"
 
-**{{FOUNDING_STORY_CONTEXT}}**  
+**{{originStory}}**  
 Why was this created? What problem inspired it? Include the founder's "aha moment" or the frustration that led to building this solution.
 
 ### Customer understanding
 
-**{{TARGET_CUSTOMER_DESCRIPTION}}**  
+**{{icpDescription}}**  
 Who are your ideal customers? Include roles, company types, and situations.  
 Example: "Mid-market B2B SaaS companies (50-500 employees) with remote sales teams struggling to maintain consistent messaging across reps"
 
-**{{CUSTOMER_NEEDS_PROBLEMS}}**  
+**{{pains}}**  
 What specific needs or problems do they experience? Be concrete about the pain, not just the solution.  
 Example: "Sales reps waste 3-5 hours per week searching for the right content to send prospects, leading to inconsistent messaging and longer sales cycles"
 
-**{{CURRENT_CUSTOMER_QUOTES}}**  
+**{{customerQuotes}}**  
 Provide 5-10 verbatim quotes from customers about why they chose you, what value you provide, or how they describe you. Pull these from sales calls, customer interviews, reviews, or testimonials.
 
-**{{CUSTOMER_SUCCESS_METRICS}}**  
+**{{successMetrics}}**  
 Quantified outcomes customers have achieved using your solution.  
 Examples: "Reduced sales cycle by 30%," "Increased win rate from 18% to 34%," "Saved 10 hours per week per rep," "Achieved $500K in additional revenue in first quarter"
 
 ### Competitive landscape
 
-**{{MAIN_COMPETITORS}}**  
+**{{directCompetitors}}**  
 List 3-5 direct competitors. Include their names and a brief description if they're not well-known.
 
-**{{COMPETITIVE_ALTERNATIVES}}**  
+**{{alternatives}}**  
 What do prospects use or do instead of your solution? Include manual processes, DIY approaches, incumbents, adjacent tools, or "do nothing."  
 Example: "Shared Google Drives, email attachments, Salesforce content library, hiring a sales enablement manager, or just letting reps figure it out themselves"
 
-**{{WIN_LOSS_INSIGHTS}}**  
+**{{winLossData}}**  
 Why do you win vs. competitors? Why do you lose? Be specific about patterns you've observed.  
 Examples:  
 - "We win when speed of implementation matters more than feature depth"  
@@ -72,15 +72,15 @@ Examples:
 
 ### Differentiation & proof
 
-**{{UNIQUE_CAPABILITIES}}**  
+**{{uniqueCapabilities}}**  
 Features or capabilities only you offer (or do significantly better than alternatives). Focus on demonstrable, defensible differences—not just "better."  
 Example: "AI-powered content recommendation engine that learns from won/lost deals, not just content consumption patterns"
 
-**{{UNIQUE_VALUE_DELIVERED}}**  
+**{{uniqueValue}}**  
 Business outcomes only achievable through your unique capabilities. Connect your differentiation to customer results.  
 Example: "Reps send the right content at the right time without searching, reducing sales cycle length and increasing win rates because messaging is consistently aligned to buyer stage"
 
-**{{PROOF_POINTS}}**  
+**{{proofPoints}}**  
 Evidence that validates your claims. Include:
 - Case studies with problem → solution → result format
 - Customer testimonials matched to specific value claims
@@ -89,15 +89,15 @@ Evidence that validates your claims. Include:
 
 ### Strategic direction
 
-**{{BUSINESS_GOALS}}**  
+**{{businessGoals}}**  
 What are you trying to achieve in the next 12-24 months?  
 Examples: "Expand into enterprise segment," "Own the 'sales enablement for remote teams' category," "Double win rate against Competitor X"
 
-**{{POSITIONING_CHALLENGES}}**  
+**{{positioningChallenges}}**  
 What current positioning problems are you trying to solve?  
 Examples: "Prospects confuse us with generic CRMs," "We're perceived as too expensive," "Sales team describes us 5 different ways," "We're invisible in a crowded market"
 
-**{{BRAND_PERSONALITY}}**  
+**{{personalityTraits}}**  
 3-5 adjectives describing how you want to be perceived. Reference your Brand Personality & Archetype doc if you've already created it.
 
 **Pro tip:** The customer quotes section is gold. Real verbatim language from customers reveals positioning insights you can't manufacture. If you don't have quotes yet, go interview your last 5 customers or prospects and ask: "How would you describe us to a colleague?" and "Why did you choose us?"
@@ -182,31 +182,31 @@ Use authentic customer language throughout. Prioritize clarity over cleverness. 
 [Paste all your prepared inputs here]
 
 ### Company basics
-- Company name: {{COMPANY_NAME}}
-- Product/service description: {{PRODUCT_SERVICE_DESCRIPTION}}
-- Product category: {{PRODUCT_CATEGORY}}
-- Founding story context: {{FOUNDING_STORY_CONTEXT}}
+- Company name: {{companyName}}
+- Product/service description: {{productDescription}}
+- Product category: {{category}}
+- Founding story context: {{originStory}}
 
 ### Customer understanding
-- Target customer description: {{TARGET_CUSTOMER_DESCRIPTION}}
-- Customer needs/problems: {{CUSTOMER_NEEDS_PROBLEMS}}
-- Current customer quotes: {{CURRENT_CUSTOMER_QUOTES}}
-- Customer success metrics: {{CUSTOMER_SUCCESS_METRICS}}
+- Target customer description: {{icpDescription}}
+- Customer needs/problems: {{pains}}
+- Current customer quotes: {{customerQuotes}}
+- Customer success metrics: {{successMetrics}}
 
 ### Competitive landscape
-- Main competitors: {{MAIN_COMPETITORS}}
-- Competitive alternatives: {{COMPETITIVE_ALTERNATIVES}}
-- Win/loss insights: {{WIN_LOSS_INSIGHTS}}
+- Main competitors: {{directCompetitors}}
+- Competitive alternatives: {{alternatives}}
+- Win/loss insights: {{winLossData}}
 
 ### Differentiation & proof
-- Unique capabilities: {{UNIQUE_CAPABILITIES}}
-- Unique value delivered: {{UNIQUE_VALUE_DELIVERED}}
-- Proof points: {{PROOF_POINTS}}
+- Unique capabilities: {{uniqueCapabilities}}
+- Unique value delivered: {{uniqueValue}}
+- Proof points: {{proofPoints}}
 
 ### Strategic direction
-- Business goals: {{BUSINESS_GOALS}}
-- Positioning challenges: {{POSITIONING_CHALLENGES}}
-- Brand personality: {{BRAND_PERSONALITY}}
+- Business goals: {{businessGoals}}
+- Positioning challenges: {{positioningChallenges}}
+- Brand personality: {{personalityTraits}}
 ```
 
 ---
