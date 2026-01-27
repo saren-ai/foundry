@@ -24,61 +24,61 @@ Fill out this form before running the prompt. The more specific your inputs, the
 
 ### Company overview
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your official company name
 
-**{{INDUSTRY}}**  
+**{{industry}}**  
 Your industry or market category.  
 Examples: "B2B SaaS," "Healthcare technology," "Sales enablement software," "API infrastructure"
 
-**{{TARGET_AUDIENCES}}**  
+**{{targetAudiences}}**  
 Primary audience segments (list 2-3).  
 Examples: "VPs of Sales at mid-market B2B companies, Sales enablement managers, Revenue operations leaders"
 
-**{{CORE_PROBLEM}}**  
+**{{coreProblem}}**  
 The main problem your customers face. Be specific and use customer language.  
 Example: "Sales teams struggle to maintain consistent messaging across reps as they scale, leading to longer sales cycles and lower win rates"
 
-**{{UNIQUE_SOLUTION}}**  
+**{{uniqueSolution}}**  
 How your product/service solves this problem uniquely—not just better, but different.  
 Example: "AI-powered content recommendation engine that learns from won/lost deals, not just content consumption, to automatically replicate top performer behavior"
 
-**{{KEY_OUTCOMES}}**  
+**{{customerOutcomes}}**  
 Primary benefits or results customers achieve. Use specific metrics if possible.  
 Examples: "Reduce sales cycle by 30%," "Increase win rates by 25%," "Cut rep onboarding time from 90 to 21 days"
 
 ### Positioning foundation
 
-**{{CATEGORY_POSITION}}**  
+**{{categoryPosition}}**  
 How you position within your category.  
 Examples: "Category leader in sales enablement for remote teams," "Disruptive challenger in CRM space," "Niche specialist for healthcare compliance software"
 
-**{{DIFFERENTIATORS}}**  
+**{{differentiators}}**  
 Top 2-3 factors that distinguish you from competitors. Be specific.  
 Examples: "Only platform that learns from deal outcomes, not usage," "48-hour implementation vs. industry average of 6-8 weeks," "Built specifically for remote sales teams from day one"
 
-**{{BRAND_VOICE}}**  
+**{{voiceDescription}}**  
 Your brand's tone and personality. Reference your Brand Voice & Tone doc if you've already created it.  
 Examples: "Authoritative yet approachable," "Technical and precise," "Bold and innovative," "Expert but not intimidating"
 
 ### Credibility elements
 
-**{{YEAR_FOUNDED}}**  
+**{{yearFounded}}**  
 Company founding year
 
-**{{KEY_MILESTONES}}**  
+**{{keyMilestones}}**  
 2-3 significant company achievements or timeline moments.  
 Examples: "Raised $10M Series A from Sequoia," "Surpassed 500 enterprise customers," "Named to Forbes Cloud 100," "Achieved SOC 2 Type II certification"
 
-**{{AWARDS}}**  
+**{{awards}}**  
 Notable awards, certifications, or industry recognition.  
 Examples: "G2 Top 50 Sales Software 2024," "Gartner Cool Vendor," "Inc. 5000 Fastest Growing Companies," "SOC 2 Type II certified"
 
-**{{NOTABLE_CLIENTS}}**  
+**{{notableClients}}**  
 Recognizable customers or partners (if applicable and permissible to name).  
 Example: "Trusted by companies like Stripe, HubSpot, and Notion"
 
-**{{GROWTH_METRICS}}**  
+**{{growthMetrics}}**  
 Relevant metrics like customers served, funding raised, market presence (optional).  
 Examples: "500+ enterprise customers across 30 countries," "$25M in funding from top-tier VCs," "95% customer retention rate"
 
@@ -90,7 +90,7 @@ Copy everything below this line and paste it into your LLM. Fill in your prepare
 
 ---
 ```
-You are an expert brand messaging strategist specializing in creating concise, compelling company narratives. Using Guy Kawasaki's 10/20/30 Rule and AP Style guidelines, create a comprehensive set of elevator pitches and a standardized boilerplate for {{COMPANY_NAME}}.
+You are an expert brand messaging strategist specializing in creating concise, compelling company narratives. Using Guy Kawasaki's 10/20/30 Rule and AP Style guidelines, create a comprehensive set of elevator pitches and a standardized boilerplate for {{companyName}}.
 
 ## Deliverables
 
@@ -162,8 +162,8 @@ Demonstrate usage in:
 
 ## Formatting & style guidelines
 
-- Maintain {{BRAND_VOICE}} throughout all variants
-- Ensure consistency with positioning from {{CATEGORY_POSITION}}
+- Maintain {{voiceDescription}} throughout all variants
+- Ensure consistency with positioning from {{categoryPosition}}
 - Use active voice and strong verbs
 - Avoid clichés ("cutting-edge," "world-class," "revolutionary")
 - Make every word count—prioritize clarity and impact
@@ -174,24 +174,24 @@ Demonstrate usage in:
 [Paste all your prepared inputs here]
 
 ### Company overview
-- Company name: {{COMPANY_NAME}}
-- Industry: {{INDUSTRY}}
-- Target audiences: {{TARGET_AUDIENCES}}
-- Core problem: {{CORE_PROBLEM}}
-- Unique solution: {{UNIQUE_SOLUTION}}
-- Key outcomes: {{KEY_OUTCOMES}}
+- Company name: {{companyName}}
+- Industry: {{industry}}
+- Target audiences: {{targetAudiences}}
+- Core problem: {{coreProblem}}
+- Unique solution: {{uniqueSolution}}
+- Key outcomes: {{customerOutcomes}}
 
 ### Positioning foundation
-- Category position: {{CATEGORY_POSITION}}
-- Differentiators: {{DIFFERENTIATORS}}
-- Brand voice: {{BRAND_VOICE}}
+- Category position: {{categoryPosition}}
+- Differentiators: {{differentiators}}
+- Brand voice: {{voiceDescription}}
 
 ### Credibility elements
-- Year founded: {{YEAR_FOUNDED}}
-- Key milestones: {{KEY_MILESTONES}}
-- Awards: {{AWARDS}}
-- Notable clients: {{NOTABLE_CLIENTS}}
-- Growth metrics: {{GROWTH_METRICS}}
+- Year founded: {{yearFounded}}
+- Key milestones: {{keyMilestones}}
+- Awards: {{awards}}
+- Notable clients: {{notableClients}}
+- Growth metrics: {{growthMetrics}}
 ```
 
 ---
