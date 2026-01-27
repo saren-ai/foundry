@@ -25,43 +25,43 @@ Fill out this form before running the prompt. The more specific and honest you a
 
 ### Company basics
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 What is your company called?
 
-**{{ORIGIN_STORY}}**  
+**{{originStory}}**  
 Why did the founders start this company? Tell the founding story—what was the catalyst, the "before" state, and the moment you decided to build this.
 
-**{{FOUNDER_FRUSTRATION}}**  
+**{{founderFrustration}}**  
 What problem were the founders personally frustrated by? What made this frustration big enough to warrant starting a company?
 
-**{{KEY_MILESTONES}}**  
+**{{keyMilestones}}**  
 What are the most important milestones in your company's journey worth mentioning? Examples: first customer, key hires, funding rounds, product launches, major partnerships, pivot moments, revenue milestones, etc.
 
 ### Team & culture
 
-**{{TEAM_SIZE_AND_STRUCTURE}}**  
+**{{teamStructure}}**  
 How large is your team and how is it structured? Include department breakdown if relevant, and any notable aspects of how you work (remote, distributed, in-person, etc.)
 
-**{{CORE_VALUES}}**  
+**{{values}}**  
 What are your current core values, or what values do you aspire to embody? If you already have defined values, list them. If not, describe the cultural principles or behaviors that matter most to your team.
 
 ### Product & market
 
-**{{PRIMARY_PRODUCTS_OR_SERVICES}}**  
+**{{productList}}**  
 What do you sell or provide to customers? Be specific about what you offer and how customers engage with it.
 
-**{{IDEAL_CUSTOMER_PROFILE}}**  
+**{{icpDescription}}**  
 Who is your target customer? Include demographics, roles, industries, company characteristics, pain points, and any psychographic details that help paint a picture.
 
-**{{PRIMARY_CUSTOMER_PROBLEM}}**  
+**{{coreProblem}}**  
 What is the main problem you solve for customers? Focus on the business outcome or transformation, not just features.
 
-**{{KEY_COMPETITORS_AND_DIFFERENTIATION}}**  
+**{{competitorDifferentiation}}**  
 Who are your key competitors and how do you differentiate from them? Include direct competitors, adjacent solutions, and your unique positioning.
 
 ### Future direction
 
-**{{FUTURE_VISION}}**  
+**{{vision}}**  
 Where do you aim to be in 3-5 years? Think big: market position, impact, scale, product evolution, team size, category leadership, etc.
 
 **Pro tip:** For the origin story and founder frustration, pull actual quotes or language from founding conversations, early pitch decks, or interviews. Authentic founder voice makes brand narratives way more compelling than corporate speak.
@@ -176,23 +176,23 @@ Define the brand's communication style:
 [Paste all your prepared inputs here]
 
 ### Company basics
-- Company name: {{COMPANY_NAME}}
-- Origin story: {{ORIGIN_STORY}}
-- Founder frustration: {{FOUNDER_FRUSTRATION}}
-- Key milestones: {{KEY_MILESTONES}}
+- Company name: {{companyName}}
+- Origin story: {{originStory}}
+- Founder frustration: {{founderFrustration}}
+- Key milestones: {{keyMilestones}}
 
 ### Team & culture
-- Team size and structure: {{TEAM_SIZE_AND_STRUCTURE}}
-- Core values: {{CORE_VALUES}}
+- Team size and structure: {{teamStructure}}
+- Core values: {{values}}
 
 ### Product & market
-- Primary products/services: {{PRIMARY_PRODUCTS_OR_SERVICES}}
-- Ideal customer profile: {{IDEAL_CUSTOMER_PROFILE}}
-- Primary customer problem: {{PRIMARY_CUSTOMER_PROBLEM}}
-- Key competitors and differentiation: {{KEY_COMPETITORS_AND_DIFFERENTIATION}}
+- Primary products/services: {{productList}}
+- Ideal customer profile: {{icpDescription}}
+- Primary customer problem: {{coreProblem}}
+- Key competitors and differentiation: {{competitorDifferentiation}}
 
 ### Future direction
-- Future vision (3-5 years): {{FUTURE_VISION}}
+- Future vision (3-5 years): {{vision}}
 ```
 
 ---
