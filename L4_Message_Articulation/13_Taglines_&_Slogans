@@ -24,18 +24,18 @@ Fill out this form before running the prompt. The more specific your examples an
 
 ### Brand aspiration & inspiration
 
-**{{FAMOUS_FOR_SAYING}}**  
+**{{famousForSaying}}**  
 What do you want your brand to be famous for saying? What message or idea should people immediately associate with your brand?  
 Example: "We want to be known for the idea that sales enablement is about behavior change, not content libraries"
 
-**{{TAGLINES_THEY_LOVE}}**  
+**{{taglinesLove}}**  
 List 3-5 taglines from other brands (any industry) that you admire and explain briefly why they resonate with you.  
 Examples:  
 - "Nike: 'Just Do It' - Simple, motivational, works for any sport or activity"  
 - "Apple: 'Think Different' - Aspirational, positions users as creative rebels"  
 - "Avis: 'We Try Harder' - Turns competitive disadvantage into a strength"
 
-**{{TAGLINES_THEY_HATE}}**  
+**{{taglinesHate}}**  
 List 2-3 taglines you dislike and explain what doesn't work about them for you.  
 Examples:  
 - "'Innovating Tomorrow Today' - Generic, could be any tech company, meaningless"  
@@ -43,38 +43,38 @@ Examples:
 
 ### Company context
 
-**{{ELEVATOR_PITCH}}**  
+**{{elevatorPitch}}**  
 Describe your business in one compelling sentence. What do you do and for whom? Reference your Elevator Pitch doc if you've already created it.  
 Example: "We help B2B sales teams scale consistent messaging by learning from won deals, not just content usage"
 
-**{{CUSTOMER_PHRASE}}**  
+**{{customerPhrase}}**  
 What word or phrase do your customers consistently use to describe your brand, product, or service? Pull from reviews, testimonials, or sales calls.  
 Example: "Customers always say 'you guys actually get it' or 'this is the first tool that understands how sales really works'"
 
-**{{EXISTING_TAGLINES}}**  
+**{{existingTaglines}}**  
 List any taglines or slogans you've tried before and note what worked or didn't work about them.  
 Example: "We tried 'Sales Enablement Reimagined' but it felt generic. We also tried 'Win More Deals Faster' but it was too tactical and didn't capture our methodology"
 
 ### Strategic foundation
 
-**{{BRAND_POSITIONING}}**  
+**{{positioningStatement}}**  
 Your brand positioning statement. If you've already created your Brand Positioning Statement doc, reference it or paste the positioning statement here.
 
-**{{TARGET_AUDIENCE}}**  
+**{{targetAudience}}**  
 Primary target audience description. If you've already created your Target Customer Profiles, reference them or provide a brief summary.
 
-**{{VALUE_PROPOSITIONS}}**  
+**{{valueProps}}**  
 Your core value propositions. If you've already created your Unique Value Propositions doc, reference it or provide key value props here.
 
 ### Optional context
 
-**{{TESTING_AUDIENCE}}**  
+**{{testingAudience}}**  
 Do you have access to customers or focus groups for testing? (Yes/No, and approximate size)
 
-**{{INDUSTRY_CONSTRAINTS}}**  
+**{{industryConstraints}}**  
 Are there any industry-specific regulations or conventions regarding claims or language?
 
-**{{GEOGRAPHIC_SCOPE}}**  
+**{{geo}}**  
 Will this tagline be used globally or in specific markets? Any language or cultural considerations?
 
 **Pro tip:** The "taglines you love" and "taglines you hate" sections are critical. They reveal your aesthetic preferences and help the LLM understand what "great" means to you. Don't skip these—they're the difference between generic options and ownable ones.
@@ -178,24 +178,24 @@ Clear directives covering:
 [Paste all your prepared inputs here]
 
 ### Brand aspiration & inspiration
-- Famous for saying: {{FAMOUS_FOR_SAYING}}
-- Taglines they love: {{TAGLINES_THEY_LOVE}}
-- Taglines they hate: {{TAGLINES_THEY_HATE}}
+- Famous for saying: {{famousForSaying}}
+- Taglines they love: {{taglinesLove}}
+- Taglines they hate: {{taglinesHate}}
 
 ### Company context
-- Elevator pitch: {{ELEVATOR_PITCH}}
-- Customer phrase: {{CUSTOMER_PHRASE}}
-- Existing taglines: {{EXISTING_TAGLINES}}
+- Elevator pitch: {{elevatorPitch}}
+- Customer phrase: {{customerPhrase}}
+- Existing taglines: {{existingTaglines}}
 
 ### Strategic foundation
-- Brand positioning: {{BRAND_POSITIONING}}
-- Target audience: {{TARGET_AUDIENCE}}
-- Value propositions: {{VALUE_PROPOSITIONS}}
+- Brand positioning: {{positioningStatement}}
+- Target audience: {{targetAudience}}
+- Value propositions: {{valueProps}}
 
 ### Optional context (if available)
-- Testing audience: {{TESTING_AUDIENCE}}
-- Industry constraints: {{INDUSTRY_CONSTRAINTS}}
-- Geographic scope: {{GEOGRAPHIC_SCOPE}}
+- Testing audience: {{testingAudience}}
+- Industry constraints: {{industryConstraints}}
+- Geographic scope: {{geo}}
 ```
 
 ---
