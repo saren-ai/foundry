@@ -26,81 +26,81 @@ Fill out this form before running the prompt. The more detailed and specific you
 
 ### Product/service information
 
-**{{PRODUCT_SERVICE_LIST}}**  
+**{{productList}}**  
 Complete list of all offerings with brief descriptions.  
 Example: "Core Platform (enterprise sales enablement), Content Intelligence Add-on (AI-powered recommendations), Mobile App (field sales access), Professional Services (implementation and training)"
 
-**{{KEY_FEATURES}}**  
+**{{keyFeatures}}**  
 Detailed features and capabilities for each product/service.  
 Example: "Core Platform features: Deal context engine, Win/loss learning algorithm, Content recommendation engine, Rep performance analytics, CRM integration, Mobile SDK. Content Intelligence features: Sentiment analysis, Competitive intelligence extraction, Buyer journey mapping"
 
-**{{PRICING_STRUCTURE}}**  
+**{{pricingModel}}**  
 Tiers, price points, and what's included at each level.  
 Example: "Starter ($5K/year, up to 10 users), Professional ($15K/year, up to 50 users, includes mobile), Enterprise ($50K+/year, unlimited users, includes Content Intelligence and white-glove onboarding)"
 
-**{{CUSTOMER_OUTCOMES}}**  
+**{{customerOutcomes}}**  
 Known results, metrics, or improvements customers have achieved.  
 Example: "Average 30% reduction in sales cycle, 25% increase in win rates, 40% faster rep onboarding, 10 hours per week saved per rep on content search"
 
-**{{PROOF_POINTS}}**  
+**{{proofPoints}}**  
 Case studies, testimonials, statistics, certifications, awards, or third-party validation.  
 Example: "12 G2 reviews averaging 4.8/5 stars, SOC 2 Type II certified, Featured in Forrester Wave Report, Customer case study: TechCorp reduced sales cycle from 90 to 63 days"
 
-**{{TECHNICAL_SPECIFICATIONS}}**  
+**{{technicalSpecs}}**  
 Integration requirements, platform compatibility, system requirements.  
 Example: "Integrates with Salesforce, HubSpot, Microsoft Dynamics. API-first architecture. Single-tenant or multi-tenant deployment options. Requires modern browser (Chrome, Safari, Firefox). Mobile apps for iOS and Android"
 
-**{{USE_CASE_EXAMPLES}}**  
+**{{useCases}}**  
 How different personas or industries currently use each product.  
 Example: "Sales enablement teams use it to scale consistent messaging. RevOps uses analytics to identify coaching opportunities. Sales managers use it for deal inspection. Reps use mobile app for field access"
 
 ### Market & customer context
 
-**{{TARGET_PERSONAS}}**  
+**{{buyerPersonas}}**  
 Who uses each product? Include roles, industries, company sizes.  
 Reference your Target Customer Profiles if you've already created them.  
 Example: "VP of Sales (economic buyer, 50-500 employee B2B SaaS), Sales Enablement Manager (champion, mid-market tech), RevOps Leader (influencer, high-growth companies)"
 
-**{{INDUSTRY_VERTICAL_FOCUS}}**  
+**{{icpIndustries}}**  
 Primary industries or sectors you serve.  
 Example: "B2B SaaS, technology services, manufacturing, financial services, healthcare technology"
 
-**{{COMPETITIVE_LANDSCAPE}}**  
+**{{competitiveLandscape}}**  
 Known competitors and alternative solutions.  
 Example: "Direct competitors: Competitor A (feature-rich but complex), Competitor B (fast implementation but limited analytics). Substitutes: Generic CRMs with content libraries, DIY solutions using Google Drive + Salesforce, hiring more enablement staff"
 
-**{{MARKET_POSITION}}**  
+**{{marketPosition}}**  
 How you currently describe your market category and position.  
 Reference your Brand Positioning Statement if you've already created it.  
 Example: "Sales enablement platform for scaling consistent messaging in B2B teams—differentiated by learning from deal outcomes, not just usage"
 
-**{{CUSTOMER_PAIN_POINTS}}**  
+**{{pains}}**  
 Problems customers are trying to solve.  
 Example: "Inconsistent messaging across growing sales teams, long sales cycles due to rep inefficiency, inability to replicate top performer behavior, lack of visibility into what content actually drives deals"
 
-**{{REGULATORY_REQUIREMENTS}}**  
+**{{regulatoryRequirements}}**  
 Any compliance, certification, or regulatory considerations.  
 Example: "SOC 2 Type II required for enterprise deals, GDPR compliance for EU customers, data residency requirements for financial services, FedRAMP for government contracts"
 
 ### Strategic context
 
-**{{COMPANY_STAGE}}**  
+**{{companyStage}}**  
 Startup phase, funding stage, or maturity level.  
 Examples: "Series B startup with $25M raised," "Bootstrapped and profitable for 5 years," "Public company, market leader"
 
-**{{GEOGRAPHIC_MARKETS}}**  
+**{{geo}}**  
 Regions or countries you operate in or target.  
 Example: "Primarily North America, expanding into UK and Western Europe, APAC markets planned for 2026"
 
-**{{TECHNOLOGY_STACK}}**  
+**{{techStack}}**  
 Core technologies, platforms, or methodologies used.  
 Example: "Built on AWS, microservices architecture, ML models using TensorFlow, GraphQL API, React + TypeScript frontend"
 
-**{{GROWTH_GOALS}}**  
+**{{growthGoals}}**  
 Key business objectives or market expansion plans.  
 Example: "Expand from mid-market to enterprise, launch Content Intelligence to existing base, enter European market, achieve 95% gross retention"
 
-**{{UNIQUE_DIFFERENTIATORS}}**  
+**{{differentiators}}**  
 What makes your offering distinct or superior.  
 Reference your Competitive Differentiation Matrix if you've already created it.  
 Example: "Only platform that learns from won/lost deals. 48-hour implementation vs. industry 6-8 weeks. Built for remote teams from day one, not retrofitted"
@@ -201,28 +201,28 @@ Deliver the following structured documents:
 [Paste all your prepared inputs here]
 
 ### Product/service information
-- Product/service list: {{PRODUCT_SERVICE_LIST}}
-- Key features: {{KEY_FEATURES}}
-- Pricing structure: {{PRICING_STRUCTURE}}
-- Customer outcomes: {{CUSTOMER_OUTCOMES}}
-- Proof points: {{PROOF_POINTS}}
-- Technical specifications: {{TECHNICAL_SPECIFICATIONS}}
-- Use case examples: {{USE_CASE_EXAMPLES}}
+- Product/service list: {{productList}}
+- Key features: {{keyFeatures}}
+- Pricing structure: {{pricingModel}}
+- Customer outcomes: {{customerOutcomes}}
+- Proof points: {{proofPoints}}
+- Technical specifications: {{technicalSpecs}}
+- Use case examples: {{useCases}}
 
 ### Market & customer context
-- Target personas: {{TARGET_PERSONAS}}
-- Industry/vertical focus: {{INDUSTRY_VERTICAL_FOCUS}}
-- Competitive landscape: {{COMPETITIVE_LANDSCAPE}}
-- Market position: {{MARKET_POSITION}}
-- Customer pain points: {{CUSTOMER_PAIN_POINTS}}
-- Regulatory requirements: {{REGULATORY_REQUIREMENTS}}
+- Target personas: {{buyerPersonas}}
+- Industry/vertical focus: {{icpIndustries}}
+- Competitive landscape: {{competitiveLandscape}}
+- Market position: {{marketPosition}}
+- Customer pain points: {{pains}}
+- Regulatory requirements: {{regulatoryRequirements}}
 
 ### Strategic context
-- Company stage: {{COMPANY_STAGE}}
-- Geographic markets: {{GEOGRAPHIC_MARKETS}}
-- Technology stack: {{TECHNOLOGY_STACK}}
-- Growth goals: {{GROWTH_GOALS}}
-- Unique differentiators: {{UNIQUE_DIFFERENTIATORS}}
+- Company stage: {{companyStage}}
+- Geographic markets: {{geo}}
+- Technology stack: {{techStack}}
+- Growth goals: {{growthGoals}}
+- Unique differentiators: {{differentiators}}
 ```
 
 ---
