@@ -26,68 +26,68 @@ Fill out this form before running the prompt. The more specific and honest you a
 
 ### Company context
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your company name
 
-**{{COMPANY_DESCRIPTION}}**  
+**{{companyDescription}}**  
 What do you do in 2-3 sentences? Focus on the problem you solve, not feature lists.
 
-**{{PRODUCT_SERVICE_OVERVIEW}}**  
+**{{productDescription}}**  
 What are you selling? What problems does it solve?
 
-**{{CURRENT_POSITIONING}}**  
+**{{currentPositioning}}**  
 How do you describe your category or market position today?
 
-**{{PRICE_POINT_MODEL}}**  
+**{{pricingModel}}**  
 What's your pricing structure? This helps identify buyer authority levels (e.g., $5K/year vs. $100K/year changes who signs off)
 
-**{{TARGET_COMPANY_SIZE}}**  
+**{{icpCompanySize}}**  
 Employee count and/or revenue range of your ideal customers
 
-**{{TARGET_INDUSTRIES}}**  
+**{{icpIndustries}}**  
 Which verticals or sectors do you serve best?
 
-**{{GEOGRAPHIC_FOCUS}}**  
+**{{geo}}**  
 Where are your customers located?
 
 ### Customer intelligence
 
-**{{EXISTING_CUSTOMER_DATA}}**  
+**{{existingCustomerData}}**  
 Names, titles, and companies of your best 5-10 customers (helps identify patterns)
 
-**{{WIN_THEMES}}**  
+**{{whyWeWin}}**  
 Why did recent customers choose you? Pull from sales notes, close-won reports, or customer interviews.
 
-**{{LOSS_THEMES}}**  
+**{{whyWeLose}}**  
 Why did prospects choose competitors or not buy at all? Be honest—this reveals gaps.
 
-**{{COMMON_PAIN_POINTS}}**  
+**{{pains}}**  
 What problems do prospects mention most often?
 
-**{{BUYING_TRIGGERS}}**  
+**{{triggers}}**  
 What events prompt people to start looking for solutions like yours? (new regulation, funding round, leadership change, system failure, team growth, etc.)
 
-**{{STAKEHOLDER_MAP}}**  
+**{{buyerCommittee}}**  
 Who gets involved in deals? List all the titles, departments, and roles you typically encounter in the buying process.
 
-**{{SALES_CYCLE_INSIGHTS}}**  
+**{{salesCycleInsights}}**  
 How long do deals take? What slows them down? What accelerates them?
 
-**{{CUSTOMER_QUOTES}}**  
+**{{customerQuotes}}**  
 Any verbatim language from customers about their challenges or your value? Pull from Gong, sales calls, or reviews.
 
 ### Specific requirements
 
-**{{NUMBER_OF_PERSONAS}}**  
+**{{numberOfPersonas}}**  
 How many do you want? (3-5 recommended)
 
-**{{PRIORITY_SEGMENTS}}**  
+**{{prioritySegments}}**  
 Any specific roles, departments, or industries to focus on?
 
-**{{EXCLUSIONS}}**  
+**{{exclusions}}**  
 Any audiences you explicitly don't serve?
 
-**{{KNOWN_GAPS}}**  
+**{{knownGaps}}**  
 Any customer types you struggle to reach or understand?
 
 **Pro tip:** Don't leave these sections blank. Even if you're pre-revenue, you can fill these with hypotheses based on founder experience, competitive research, or industry knowledge. Just label them as assumptions you'll validate.
@@ -190,30 +190,30 @@ Map their needs and behaviors across:
 [Paste all your prepared inputs here]
 
 ### Company context
-- Company name: {{COMPANY_NAME}}
-- Company description: {{COMPANY_DESCRIPTION}}
-- Product/service overview: {{PRODUCT_SERVICE_OVERVIEW}}
-- Current positioning: {{CURRENT_POSITIONING}}
-- Price point/model: {{PRICE_POINT_MODEL}}
-- Target company size: {{TARGET_COMPANY_SIZE}}
-- Target industries: {{TARGET_INDUSTRIES}}
-- Geographic focus: {{GEOGRAPHIC_FOCUS}}
+- Company name: {{companyName}}
+- Company description: {{companyDescription}}
+- Product/service overview: {{productDescription}}
+- Current positioning: {{currentPositioning}}
+- Price point/model: {{pricingModel}}
+- Target company size: {{icpCompanySize}}
+- Target industries: {{icpIndustries}}
+- Geographic focus: {{geo}}
 
 ### Customer intelligence
-- Existing customer data: {{EXISTING_CUSTOMER_DATA}}
-- Win themes: {{WIN_THEMES}}
-- Loss themes: {{LOSS_THEMES}}
-- Common pain points: {{COMMON_PAIN_POINTS}}
-- Buying triggers: {{BUYING_TRIGGERS}}
-- Stakeholder map: {{STAKEHOLDER_MAP}}
-- Sales cycle insights: {{SALES_CYCLE_INSIGHTS}}
-- Customer quotes: {{CUSTOMER_QUOTES}}
+- Existing customer data: {{existingCustomerData}}
+- Win themes: {{whyWeWin}}
+- Loss themes: {{whyWeLose}}
+- Common pain points: {{pains}}
+- Buying triggers: {{triggers}}
+- Stakeholder map: {{buyerCommittee}}
+- Sales cycle insights: {{salesCycleInsights}}
+- Customer quotes: {{customerQuotes}}
 
 ### Specific requirements
-- Number of personas: {{NUMBER_OF_PERSONAS}}
-- Priority segments: {{PRIORITY_SEGMENTS}}
-- Exclusions: {{EXCLUSIONS}}
-- Known gaps: {{KNOWN_GAPS}}
+- Number of personas: {{numberOfPersonas}}
+- Priority segments: {{prioritySegments}}
+- Exclusions: {{exclusions}}
+- Known gaps: {{knownGaps}}
 ```
 
 ---
