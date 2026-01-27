@@ -24,38 +24,38 @@ Fill out this form before running the prompt. The more specific your inputs, the
 
 ### Company basics
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your company or product name
 
-**{{PROBLEM_STATEMENT}}**  
+**{{coreProblem}}**  
 What core problem does your solution solve? Describe it in 2-3 sentences from your customer's perspective.
 
-**{{TARGET_PERSONAS}}**  
+**{{buyerPersonas}}**  
 Who are your primary customer segments or personas? List each with a brief description (role, company size, key characteristics). Reference your Target Customer Profiles if you've already created them.
 
-**{{PRODUCT_CATEGORY}}**  
+**{{category}}**  
 What product category are you in or defining?  
 Examples: "CRM software," "AI-powered analytics platform," "workflow automation for healthcare," "API infrastructure for developers"
 
 ### Competitive context
 
-**{{COMPETITORS_LIST}}**  
+**{{directCompetitors}}**  
 Who are your primary competitors and alternatives? Include direct competitors AND alternative solutions customers might consider (including "do nothing" or "build it ourselves" if relevant).
 
-**{{REASONS_TO_CHOOSE}}**  
+**{{whyWeWin}}**  
 Why do customers choose your solution over alternatives? Pull from customer feedback, sales conversations, close-won reports, or post-sale interviews. Be specific—what did they say?
 
-**{{WIN_LOSS_DATA}}**  
+**{{winLossData}}**  
 What have you learned from competitive wins and losses? Optional but highly valuable.  
 Examples: "We win when speed matters more than features," "We lose to Competitor X when prospects need on-premise deployment," "We win against DIY solutions when teams hit scale challenges"
 
-**{{CATEGORY_CONTEXT}}**  
+**{{categoryContext}}**  
 Market category context: Is this an established or emerging category? Are you defining new category criteria? What makes this space unique right now?  
 Examples: "Established CRM space but we're the first built specifically for remote teams," "Emerging category around AI code review—most buyers still building internally," "Mature category but recent regulatory changes created new requirements"
 
 ### Proof & validation
 
-**{{PROOF_POINTS}}**  
+**{{proofPoints}}**  
 What evidence validates your claims? Include all available proof:
 - Customer metrics (time saved, revenue increased, costs reduced, etc.)
 - Testimonials (with customer names and titles if possible)
@@ -151,19 +151,19 @@ Ensure all messaging is:
 [Paste all your prepared inputs here]
 
 ### Company basics
-- Company name: {{COMPANY_NAME}}
-- Problem statement: {{PROBLEM_STATEMENT}}
-- Target personas: {{TARGET_PERSONAS}}
-- Product category: {{PRODUCT_CATEGORY}}
+- Company name: {{companyName}}
+- Problem statement: {{coreProblem}}
+- Target personas: {{buyerPersonas}}
+- Product category: {{category}}
 
 ### Competitive context
-- Primary competitors & alternatives: {{COMPETITORS_LIST}}
-- Reasons customers choose us: {{REASONS_TO_CHOOSE}}
-- Win/loss insights: {{WIN_LOSS_DATA}}
-- Category context: {{CATEGORY_CONTEXT}}
+- Primary competitors & alternatives: {{directCompetitors}}
+- Reasons customers choose us: {{whyWeWin}}
+- Win/loss insights: {{winLossData}}
+- Category context: {{categoryContext}}
 
 ### Proof & validation
-- Proof points: {{PROOF_POINTS}}
+- Proof points: {{proofPoints}}
 ```
 
 ---
