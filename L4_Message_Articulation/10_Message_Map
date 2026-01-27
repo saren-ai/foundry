@@ -24,51 +24,51 @@ Fill out this form before running the prompt. The more specific your differentia
 
 ### Company basics
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your company or brand name
 
-**{{TARGET_BUYERS}}**  
+**{{buyerPersonas}}**  
 Primary buyer personas or decision-maker roles.  
 Examples: "CFOs at mid-market manufacturing companies," "VPs of Sales at B2B SaaS companies (50-500 employees)," "IT Directors at healthcare organizations"
 
-**{{BRAND_VOICE}}**  
+**{{voiceDescription}}**  
 Desired tone and personality for messaging. Reference your Brand Voice & Tone doc if you've already created it.  
 Examples: "Bold and visionary," "Trusted and enterprise-grade," "Innovative yet approachable," "Expert but not intimidating"
 
 ### Differentiation & value
 
-**{{TOP_DIFFERENTIATORS}}**  
+**{{differentiators}}**  
 List 3-5 biggest differentiators that set you apart from competitors. Be specific—not just "better" but "different."  
 Examples:  
 - "Only platform that learns from won/lost deals, not just content consumption"  
 - "Built specifically for remote sales teams—not retrofitted from in-office workflows"  
 - "Implementation in 48 hours vs. industry average of 6-8 weeks"
 
-**{{BUYER_OUTCOMES}}**  
+**{{customerOutcomes}}**  
 Top 3-5 business outcomes that matter most to your buyers—the results they're measured on.  
 Examples: "Reduce sales cycle length," "Increase win rates," "Improve rep productivity," "Accelerate onboarding of new hires," "Maintain consistent messaging at scale"
 
 ### Proof & credibility
 
-**{{PROVABLE_METRICS}}**  
+**{{proofMetrics}}**  
 Key metrics, results, or outcomes you can demonstrate. Include specific numbers with context.  
 Examples: "95% customer retention rate," "Average 3x ROI within 6 months," "500+ enterprise customers," "Reduced onboarding time from 90 days to 21 days," "Increased win rates by an average of 28%"
 
-**{{CUSTOMER_TESTIMONIALS}}**  
+**{{testimonials}}**  
 Direct quotes or paraphrased feedback from satisfied customers. Include attribution (name, title, company) if possible.  
 Example: "'We cut our sales cycle by 40% in the first quarter.' - VP of Sales, mid-market SaaS company"
 
-**{{CERTIFICATIONS_AWARDS}}**  
+**{{awards}}**  
 Any relevant certifications, awards, partnerships, or third-party validations.  
 Examples: "SOC 2 Type II certified," "Named Leader in Gartner Magic Quadrant," "G2 Top 50 Sales Software 2024," "Strategic partnership with Salesforce"
 
 ### Competitive context
 
-**{{COMPETITOR_CLAIMS}}**  
+**{{competitorClaims}}**  
 What are your main competitors claiming? What messages do you need to counter or differentiate against?  
 Example: "Competitor A claims 'most comprehensive feature set.' Competitor B claims 'easiest implementation—live in 24 hours.' Competitor C claims 'AI does all the work so reps don't have to think.'"
 
-**{{ADDITIONAL_CONTEXT}}**  
+**{{additionalContext}}**  
 Any other relevant information about market position, recent company developments, or strategic priorities.
 
 **Pro tip:** The proof points make or break this exercise. "Customers love us" is useless. "94% retention rate, 50+ G2 reviews averaging 4.8/5 stars, and 3 customers featured in Forrester case studies" is powerful. Gather real data before you start.
@@ -111,8 +111,8 @@ The Message Map is a foundational messaging tool that enforces clarity and prior
 ## Your task
 
 Using the client inputs provided below, create a strategic Message Map that:
-- Clearly differentiates {{COMPANY_NAME}} from competitors
-- Speaks directly to the business outcomes that matter to {{TARGET_BUYERS}}
+- Clearly differentiates {{companyName}} from competitors
+- Speaks directly to the business outcomes that matter to {{buyerPersonas}}
 - Leverages the strongest proof points available
 - Counters or sidesteps competitor claims
 - Maintains strategic coherence across all three levels
@@ -127,7 +127,7 @@ Using the client inputs provided below, create a strategic Message Map that:
 - Structured to fit on one page/slide
 
 ### Tone & style:
-- Follow {{BRAND_VOICE}} guidelines
+- Follow {{voiceDescription}} guidelines
 - Language should be clear, jargon-free (unless industry-specific terms add credibility)
 - Active voice preferred
 - Benefits-focused rather than feature-focused
@@ -143,22 +143,22 @@ Using the client inputs provided below, create a strategic Message Map that:
 [Paste all your prepared inputs here]
 
 ### Company basics
-- Company name: {{COMPANY_NAME}}
-- Target buyers: {{TARGET_BUYERS}}
-- Brand voice: {{BRAND_VOICE}}
+- Company name: {{companyName}}
+- Target buyers: {{buyerPersonas}}
+- Brand voice: {{voiceDescription}}
 
 ### Differentiation & value
-- Top differentiators: {{TOP_DIFFERENTIATORS}}
-- Buyer outcomes: {{BUYER_OUTCOMES}}
+- Top differentiators: {{differentiators}}
+- Buyer outcomes: {{customerOutcomes}}
 
 ### Proof & credibility
-- Provable metrics: {{PROVABLE_METRICS}}
-- Customer testimonials: {{CUSTOMER_TESTIMONIALS}}
-- Certifications/awards: {{CERTIFICATIONS_AWARDS}}
+- Provable metrics: {{proofMetrics}}
+- Customer testimonials: {{testimonials}}
+- Certifications/awards: {{awards}}
 
 ### Competitive context
-- Competitor claims: {{COMPETITOR_CLAIMS}}
-- Additional context: {{ADDITIONAL_CONTEXT}}
+- Competitor claims: {{competitorClaims}}
+- Additional context: {{additionalContext}}
 ```
 
 ---
