@@ -36,7 +36,7 @@ Fill out this form before running the prompt. This is essentially gathering ever
 
 ### Foundation documents
 
-**{{FOUNDATION_DOCUMENTS}}**  
+**{{foundationDocs}}**  
 All completed brand foundation documents from artifacts 1-16. You can either upload/paste the complete documents or provide summaries with key takeaways.
 
 Include:
@@ -59,7 +59,7 @@ Include:
 
 ### Visual identity assets
 
-**{{VISUAL_IDENTITY_ASSETS}}**  
+**{{visualAssets}}**  
 Your visual brand elements including:
 - Logo files (primary, secondary, icon variations)
 - Color specifications (hex codes, RGB, CMYK, Pantone)
@@ -72,7 +72,7 @@ If you don't have all visual assets finalized, note what you have and what's in 
 
 ### Organizational context
 
-**{{ACCESS_PERMISSIONS}}**  
+**{{accessPermissions}}**  
 Define who should have access to which versions of the guidelines.
 
 Examples:
@@ -80,12 +80,12 @@ Examples:
 - **External version:** Agency partners, freelance designers, co-marketing partners
 - **Quick-reference:** Everyone in the company, especially those who don't touch brand daily (engineering, finance, legal)
 
-**{{EXISTING_TEMPLATES}}**  
+**{{existingTemplates}}**  
 Any current templates you want incorporated or referenced.
 
 Examples: PowerPoint template, Word letterhead, Email signature format, Social media post templates, Sales one-pager template, Case study template
 
-**{{CONSISTENCY_CHALLENGES}}**  
+**{{consistencyChallenges}}**  
 Known pain points or areas where brand guidelines have been inconsistently applied in the past.
 
 Examples:
@@ -264,15 +264,15 @@ Before finalizing, ensure:
 [Paste all your prepared inputs here]
 
 ### Foundation documents
-{{FOUNDATION_DOCUMENTS}}
+{{foundationDocs}}
 
 ### Visual identity assets
-{{VISUAL_IDENTITY_ASSETS}}
+{{visualAssets}}
 
 ### Organizational context
-- Access permissions: {{ACCESS_PERMISSIONS}}
-- Existing templates: {{EXISTING_TEMPLATES}}
-- Consistency challenges: {{CONSISTENCY_CHALLENGES}}
+- Access permissions: {{accessPermissions}}
+- Existing templates: {{existingTemplates}}
+- Consistency challenges: {{consistencyChallenges}}
 ```
 
 ---
