@@ -25,71 +25,71 @@ Fill out this form before running the prompt. The more specific your context and
 
 ### Company & market profile
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your company name
 
-**{{PRIMARY_MARKET_SEGMENT}}**  
+**{{primarySegment}}**  
 Are you primarily selling to Enterprise, Mid-Market, or SMB customers?
 
-**{{AVERAGE_DEAL_SIZE}}**  
+**{{acvRange}}**  
 What is your average deal value (ACV or total contract value)?
 
-**{{SALES_CYCLE_LENGTH}}**  
+**{{salesCycleDays}}**  
 How long does a typical sales cycle take from first contact to close?
 
-**{{PRODUCT_SERVICE_DESCRIPTION}}**  
+**{{productDescription}}**  
 Briefly describe what you sell (product/service/solution)
 
 ### Current sales process
 
-**{{CURRENT_SALES_PROCESS}}**  
+**{{salesMotion}}**  
 Describe your current sales process from lead to close. Include stages and key activities.  
 Example: "Lead → Discovery → Demo → Proposal → Negotiation → Closed Won. Discovery focuses on pain, Demo customized to persona, Proposal includes ROI calculator"
 
-**{{CURRENT_QUALIFICATION_APPROACH}}**  
+**{{qualification}}**  
 How do you currently qualify opportunities? What criteria do you use?  
 Example: "We ask about budget, decision-maker involvement, and timeline. But it's subjective—each rep qualifies differently"
 
-**{{CURRENT_DEAL_STAGES}}**  
+**{{salesStages}}**  
 What are your current pipeline stages?  
 Example: "Prospecting, Discovery, Demo Scheduled, Demo Completed, Proposal Sent, Negotiation, Closed Won/Lost"
 
-**{{SALES_TEAM_STRUCTURE}}**  
+**{{salesTeamStructure}}**  
 How many sellers do you have? How is the team organized?  
 Example: "8 AEs split into hunters (new business) and farmers (expansion). 3 SDRs feeding the hunters. No industry specialization yet"
 
 ### Discovery & qualification insights
 
-**{{IDEAL_DISCOVERY_CALL_DESCRIPTION}}**  
+**{{idealDiscoveryCall}}**  
 Describe what a great discovery call looks like. What gets covered? What outcomes indicate success?  
 Example: "Great discovery: We uncover specific pain (not just 'it's hard'), quantify business impact ($X lost per quarter), identify who's affected, understand current workarounds, get timeline urgency. Success = prospect says 'I haven't thought about it that way' or asks 'how does your solution solve this?'"
 
-**{{DISQUALIFICATION_REASONS}}**  
+**{{dealbreakers}}**  
 What typically disqualifies a deal? When should you walk away?  
 Example: "No budget authority identified after 2 calls. No quantifiable pain or ROI case. Competitor already implemented (we don't rip-and-replace well). Timeline beyond 6 months with no urgency"
 
-**{{TOP_PERFORMER_BEHAVIORS}}**  
+**{{topPerformerBehaviors}}**  
 What do your top-performing reps do differently than average performers?  
 Example: "Top reps always get executive involvement early. They challenge prospects' assumptions instead of just pitching features. They disqualify faster—their pipeline is smaller but higher quality. They always send post-call summaries with next steps"
 
-**{{BIGGEST_SALES_CHALLENGES}}**  
+**{{salesChallenges}}**  
 What are your biggest sales execution challenges right now?  
 Example: "Deals stall in negotiation stage. Reps struggle to get past mid-level managers to economic buyers. We lose to 'do nothing' more than competitors. Average reps don't ask good discovery questions"
 
 ### Buyer & competitive context
 
-**{{BUYER_PERSONAS}}**  
+**{{buyerPersonas}}**  
 Who are the typical buyers/stakeholders involved in purchase decisions? Include titles and roles.  
 Example: "VP of Sales (economic buyer), Sales Enablement Manager (champion), RevOps (influencer/technical buyer), IT/Security (gatekeeper for procurement)"
 
-**{{STAKEHOLDER_COUNT}}**  
+**{{stakeholderCount}}**  
 How many people are typically involved in buying decisions?  
 Example: "Usually 3-5 stakeholders in mid-market, 7-10 in enterprise deals"
 
-**{{MAIN_COMPETITORS}}**  
+**{{directCompetitors}}**  
 Who are your top 3-5 competitors?
 
-**{{COMPETITIVE_DIFFERENTIATORS}}**  
+**{{differentiators}}**  
 What are your key differentiators vs. competition? Why do customers choose you?  
 Example: "We learn from won/lost deals, not just content usage. Our implementation is 48 hours vs. competitor average of 6-8 weeks. We're built for remote teams specifically, not retrofitted"
 
@@ -249,29 +249,29 @@ Ensure the framework:
 [Paste all your prepared inputs here]
 
 ### Company & market profile
-- Company name: {{COMPANY_NAME}}
-- Primary market segment: {{PRIMARY_MARKET_SEGMENT}}
-- Average deal size: {{AVERAGE_DEAL_SIZE}}
-- Sales cycle length: {{SALES_CYCLE_LENGTH}}
-- Product/service description: {{PRODUCT_SERVICE_DESCRIPTION}}
+- Company name: {{companyName}}
+- Primary market segment: {{primarySegment}}
+- Average deal size: {{acvRange}}
+- Sales cycle length: {{salesCycleDays}}
+- Product/service description: {{productDescription}}
 
 ### Current sales process
-- Current sales process: {{CURRENT_SALES_PROCESS}}
-- Current qualification approach: {{CURRENT_QUALIFICATION_APPROACH}}
-- Current deal stages: {{CURRENT_DEAL_STAGES}}
-- Sales team structure: {{SALES_TEAM_STRUCTURE}}
+- Current sales process: {{salesMotion}}
+- Current qualification approach: {{qualification}}
+- Current deal stages: {{salesStages}}
+- Sales team structure: {{salesTeamStructure}}
 
 ### Discovery & qualification insights
-- Ideal discovery call: {{IDEAL_DISCOVERY_CALL_DESCRIPTION}}
-- Disqualification reasons: {{DISQUALIFICATION_REASONS}}
-- Top performer behaviors: {{TOP_PERFORMER_BEHAVIORS}}
-- Biggest sales challenges: {{BIGGEST_SALES_CHALLENGES}}
+- Ideal discovery call: {{idealDiscoveryCall}}
+- Disqualification reasons: {{dealbreakers}}
+- Top performer behaviors: {{topPerformerBehaviors}}
+- Biggest sales challenges: {{salesChallenges}}
 
 ### Buyer & competitive context
-- Buyer personas: {{BUYER_PERSONAS}}
-- Stakeholder count: {{STAKEHOLDER_COUNT}}
-- Main competitors: {{MAIN_COMPETITORS}}
-- Competitive differentiators: {{COMPETITIVE_DIFFERENTIATORS}}
+- Buyer personas: {{buyerPersonas}}
+- Stakeholder count: {{stakeholderCount}}
+- Main competitors: {{directCompetitors}}
+- Competitive differentiators: {{differentiators}}
 ```
 
 ---
