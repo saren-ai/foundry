@@ -25,23 +25,23 @@ Fill out this form before running the prompt. The more specific your context and
 
 ### Team & organizational context
 
-**{{CURRENT_TEAM_SIZE_AND_ROLES}}**  
+**{{teamRoles}}**  
 Describe your current team structure, size, and key roles.  
 Example: "15-person team: 5 AEs (sales), 3 SDRs, 4 marketing (1 content, 1 demand gen, 1 product marketing, 1 ops), 2 customer success managers, 1 sales engineer"
 
-**{{EXISTING_ONBOARDING_PROCESS}}**  
+**{{onboardingProcess}}**  
 Describe your current onboarding approach, duration, and what's working/not working.  
 Examples:  
 - "2-week informal buddy system where new hires shadow different team members. No structured curriculum. Works: People get to know the team quickly. Doesn't work: Inconsistent knowledge transfer, reps take 6 months to ramp"  
 - "We have a 30-day checklist but it's just admin tasks (benefits, tools setup). No training on brand, messaging, or methodology"
 
-**{{ONBOARDING_TIMELINE}}**  
+**{{onboardingTimeline}}**  
 Specify your ideal onboarding duration and any constraints.  
 Examples: "30-day intensive program with weekly milestones," "90-day gradual integration with monthly check-ins," "2-week crash course due to fast hiring pace"
 
 ### Performance & gaps
 
-**{{COMMON_MISTAKES}}**  
+**{{commonMistakes}}**  
 List the top 3-5 recurring errors, knowledge gaps, or performance issues your team encounters.  
 Examples:  
 - "Sales reps use generic value props instead of our messaging pillars"  
@@ -52,7 +52,7 @@ Examples:
 
 ### Delivery & ownership
 
-**{{TRAINING_DELIVERY_PREFERENCE}}**  
+**{{trainingPreference}}**  
 Specify your preferred delivery method(s).  
 Examples:  
 - "Hybrid: 30% live virtual sessions, 70% self-paced asynchronous"  
@@ -60,7 +60,7 @@ Examples:
 - "Fully remote and asynchronous—team is distributed globally"  
 - "Live sessions for onboarding, self-paced for ongoing enablement"
 
-**{{ENABLEMENT_OWNER}}**  
+**{{enablementOwner}}**  
 Identify who will own ongoing training and enablement. Include their capacity/bandwidth.  
 Examples:  
 - "VP Sales, 5 hours/month available—needs turnkey materials"  
@@ -68,7 +68,7 @@ Examples:
 - "Founder for now, will hire enablement lead at 25 employees"  
 - "Marketing Manager + Sales Manager co-own, 10 hours/month combined"
 
-**{{TOOLS_AVAILABLE}}**  
+**{{toolsAvailable}}**  
 List learning/training tools and platforms you currently use or have access to.  
 Examples:  
 - "Zoom, Google Workspace, no LMS currently—need simple solutions"  
@@ -78,14 +78,14 @@ Examples:
 
 ### Optional but helpful
 
-**{{COMPANY_PRODUCT_OVERVIEW}}**  
+**{{productDescription}}**  
 Brief description of what you do, who you serve, and key differentiators. Reference your Brand Positioning Statement if you've already created it.
 
-**{{IMMEDIATE_TRAINING_PRIORITIES}}**  
+**{{trainingPriorities}}**  
 Any urgent skills gaps or upcoming launches requiring accelerated enablement.  
 Example: "New product launching in Q2—need sales team trained on positioning in 6 weeks"
 
-**{{SUCCESS_METRICS}}**  
+**{{kpis}}**  
 How you currently measure team readiness or performance (if applicable).  
 Example: "Track time-to-first-deal for new reps, win rate by rep, customer onboarding completion rates"
 
@@ -221,22 +221,22 @@ Ensure all deliverables:
 [Paste all your prepared inputs here]
 
 ### Team & organizational context
-- Current team size and roles: {{CURRENT_TEAM_SIZE_AND_ROLES}}
-- Existing onboarding process: {{EXISTING_ONBOARDING_PROCESS}}
-- Onboarding timeline: {{ONBOARDING_TIMELINE}}
+- Current team size and roles: {{teamRoles}}
+- Existing onboarding process: {{onboardingProcess}}
+- Onboarding timeline: {{onboardingTimeline}}
 
 ### Performance & gaps
-- Common mistakes: {{COMMON_MISTAKES}}
+- Common mistakes: {{commonMistakes}}
 
 ### Delivery & ownership
-- Training delivery preference: {{TRAINING_DELIVERY_PREFERENCE}}
-- Enablement owner: {{ENABLEMENT_OWNER}}
-- Tools available: {{TOOLS_AVAILABLE}}
+- Training delivery preference: {{trainingPreference}}
+- Enablement owner: {{enablementOwner}}
+- Tools available: {{toolsAvailable}}
 
 ### Optional context (if available)
-- Company/product overview: {{COMPANY_PRODUCT_OVERVIEW}}
-- Immediate training priorities: {{IMMEDIATE_TRAINING_PRIORITIES}}
-- Success metrics: {{SUCCESS_METRICS}}
+- Company/product overview: {{productDescription}}
+- Immediate training priorities: {{trainingPriorities}}
+- Success metrics: {{kpis}}
 ```
 
 ---
