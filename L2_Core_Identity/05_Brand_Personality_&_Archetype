@@ -24,30 +24,30 @@ Fill out this form before running the prompt. The more honest and specific you a
 
 ### Brand basics
 
-**{{BRAND_NAME}}**  
+**{{companyName}}**  
 Your company/brand name
 
-**{{BRIEF_BRAND_DESCRIPTION}}**  
+**{{companyDescription}}**  
 In 2-3 sentences, what does your brand do? What problem do you solve?
 
-**{{DESIRED_CUSTOMER_FEELINGS}}**  
+**{{desiredFeelings}}**  
 How do you want customers to feel about your brand?  
 Examples: "trusted, inspired, empowered" or "confident, supported, innovative" or "safe, understood, capable"
 
-**{{PERSONALITY_ADJECTIVES}}**  
+**{{personalityTraits}}**  
 List 3-5 adjectives that describe your ideal brand personality.  
 Examples: bold, authentic, innovative, approachable, expert, playful, premium, rebellious, nurturing, ambitious
 
 ### Brand inspiration & direction
 
-**{{ADMIRED_BRANDS}}**  
+**{{admiredBrands}}**  
 Name 3-5 brands you admire in ANY industry and briefly note why.  
 Examples:  
 - "Apple - minimalist and premium, never overexplains"  
 - "Patagonia - values-driven without being preachy"  
 - "Mailchimp - makes complex things approachable and fun"
 
-**{{ANTI_BRANDS}}**  
+**{{antiBrands}}**  
 Name 2-3 brands or brand styles that feel wrong for your positioning and explain why.  
 Examples:  
 - "Too corporate like IBM - overly formal and distant"  
@@ -56,7 +56,7 @@ Examples:
 
 ### Communication preferences
 
-**{{FORMALITY_PREFERENCE}}**  
+**{{formalityLevel}}**  
 On a scale of 1-5, how formal should your brand voice be?  
 - 1 = very casual/conversational (startup, DTC, consumer tech)
 - 2 = friendly professional (modern B2B, SaaS)
@@ -64,14 +64,14 @@ On a scale of 1-5, how formal should your brand voice be?
 - 4 = formal professional (finance, legal, healthcare)
 - 5 = very formal/corporate (enterprise, government)
 
-**{{INDUSTRY_NORMS_APPROACH}}**  
+**{{industryNormsApproach}}**  
 Should you follow industry communication norms, break them, or be selective? Explain your reasoning.  
 Examples:  
 - "Break them - our industry is stuck in corporate speak and we want to stand out"  
 - "Follow them - trust and credibility matter more than differentiation in our space"  
 - "Selective - professional when it matters, but more human than our competitors"
 
-**{{CULTURAL_NUANCES}}**  
+**{{culturalNuances}}**  
 Are there specific cultural, regional, or demographic considerations that should influence your brand personality?  
 Examples:  
 - "B2B enterprise audience - need to balance approachable with authoritative"  
@@ -80,10 +80,10 @@ Examples:
 
 ### Audience & market context
 
-**{{TARGET_AUDIENCE_DESCRIPTION}}**  
+**{{targetAudience}}**  
 Who are your primary customers? Include demographics, psychographics, and key characteristics.
 
-**{{INDUSTRY_AND_COMPETITIVE_LANDSCAPE}}**  
+**{{competitiveLandscape}}**  
 What industry are you in? Who are your main competitors? What's the typical brand personality in your space? (e.g., "Cybersecurity - most brands are fear-based and technical, we want to be empowering")
 
 **Pro tip:** When identifying admired brands, look beyond your industry. Some of the best personality differentiation comes from borrowing traits from unexpected categories. A B2B SaaS company might learn from Patagonia's values-driven authenticity or Nike's motivational energy.
@@ -156,23 +156,23 @@ Brief summary of:
 [Paste all your prepared inputs here]
 
 ### Brand basics
-- Brand name: {{BRAND_NAME}}
-- Brand description: {{BRIEF_BRAND_DESCRIPTION}}
-- Desired customer feelings: {{DESIRED_CUSTOMER_FEELINGS}}
-- Personality adjectives: {{PERSONALITY_ADJECTIVES}}
+- Brand name: {{companyName}}
+- Brand description: {{companyDescription}}
+- Desired customer feelings: {{desiredFeelings}}
+- Personality adjectives: {{personalityTraits}}
 
 ### Brand inspiration & direction
-- Admired brands: {{ADMIRED_BRANDS}}
-- Anti-brands: {{ANTI_BRANDS}}
+- Admired brands: {{admiredBrands}}
+- Anti-brands: {{antiBrands}}
 
 ### Communication preferences
-- Formality preference: {{FORMALITY_PREFERENCE}}
-- Industry norms approach: {{INDUSTRY_NORMS_APPROACH}}
-- Cultural nuances: {{CULTURAL_NUANCES}}
+- Formality preference: {{formalityLevel}}
+- Industry norms approach: {{industryNormsApproach}}
+- Cultural nuances: {{culturalNuances}}
 
 ### Audience & market context
-- Target audience: {{TARGET_AUDIENCE_DESCRIPTION}}
-- Industry and competitive landscape: {{INDUSTRY_AND_COMPETITIVE_LANDSCAPE}}
+- Target audience: {{targetAudience}}
+- Industry and competitive landscape: {{competitiveLandscape}}
 ```
 
 ---
