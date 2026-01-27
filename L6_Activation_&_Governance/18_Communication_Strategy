@@ -25,24 +25,24 @@ Fill out this form before running the prompt. The more specific your examples an
 
 ### Channel landscape
 
-**{{CURRENT_CHANNELS}}**  
+**{{channels}}**  
 List all communication channels currently in use.  
 Examples: "LinkedIn (company page + CEO personal), Email newsletter (monthly to customers + prospects), Blog (weekly), Trade shows (3-4 per year), Paid LinkedIn ads, Webinars (monthly), Sales outreach emails, Customer community (Slack)"
 
-**{{PLANNED_CHANNELS}}**  
+**{{plannedChannels}}**  
 List any channels planned for expansion or testing in the next 6-12 months.  
 Examples: "YouTube (product demos + thought leadership), Podcast (interviewing customers), Instagram (if we pivot to visual storytelling), Twitter/X (CEO thought leadership), Reddit (community engagement), TikTok (if we target younger buyers)"
 
 ### Team & workflow context
 
-**{{TEAM_STRUCTURE}}**  
+**{{teamStructure}}**  
 Describe who owns what channels and how your team is organized.  
 Examples:  
 - "Marketing Manager owns LinkedIn, blog, newsletter. Sales team owns outbound email. CEO handles thought leadership posts. We have a contractor for paid ads"  
 - "Single marketing person handling everything—need to prioritize ruthlessly"  
 - "Agency supports paid channels and content creation. In-house team handles social and email"
 
-**{{APPROVAL_COMFORT_LEVEL}}**  
+**{{approvalLevel}}**  
 Describe approval preferences and constraints.  
 Examples:  
 - "CEO wants to review everything before it goes out—we move slowly but stay on-brand"  
@@ -52,14 +52,14 @@ Examples:
 
 ### Performance context
 
-**{{CONTENT_THAT_WORKS}}**  
+**{{contentThatWorks}}**  
 Provide 2-5 examples of content/campaigns that performed well, with brief explanation of what made them successful.  
 Examples:  
 - "LinkedIn post about 'Sales reps waste 5 hours per week' got 450+ likes, 87 comments, 15 demo requests—specific stat in headline drove engagement"  
 - "Cold email with ROI calculator attachment had 34% reply rate vs. our 8% average—tangible value upfront"  
 - "Customer case study video on YouTube got 12K views and was shared internally at 6 prospect companies—storytelling format resonated"
 
-**{{CONTENT_THAT_FAILED}}**  
+**{{contentThatFailed}}**  
 Provide 2-3 examples of content/campaigns that underperformed, with lessons learned or hypotheses about why.  
 Examples:  
 - "Product feature announcement email had 4% open rate—subject line too generic, timing wrong (Friday afternoon)"  
@@ -185,16 +185,16 @@ Provide:
 [Paste all your prepared inputs here]
 
 ### Channel landscape
-- Current channels: {{CURRENT_CHANNELS}}
-- Planned channels: {{PLANNED_CHANNELS}}
+- Current channels: {{channels}}
+- Planned channels: {{plannedChannels}}
 
 ### Team & workflow context
-- Team structure: {{TEAM_STRUCTURE}}
-- Approval comfort level: {{APPROVAL_COMFORT_LEVEL}}
+- Team structure: {{teamStructure}}
+- Approval comfort level: {{approvalLevel}}
 
 ### Performance context
-- Content that works: {{CONTENT_THAT_WORKS}}
-- Content that failed: {{CONTENT_THAT_FAILED}}
+- Content that works: {{contentThatWorks}}
+- Content that failed: {{contentThatFailed}}
 ```
 
 ---
