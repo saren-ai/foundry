@@ -24,39 +24,39 @@ Fill out this form before running the prompt. The more honest and specific you a
 
 ### Customer feedback
 
-**{{CUSTOMER_PRAISE}}**  
+**{{customerPraise}}**  
 What do customers consistently praise about your organization? Pull from reviews, testimonials, sales calls, support tickets, or NPS comments.  
 Example: "Customers constantly mention our response time—'I always get an answer within an hour' shows up in almost every positive review"
 
-**{{CUSTOMER_COMPLAINTS}}**  
+**{{customerComplaints}}**  
 What's your most repeated customer complaint or pain point? Be honest—this helps you build a promise around what matters most.  
 Example: "Onboarding takes too long and feels confusing. Customers say they don't know what to do first or who to ask for help"
 
-**{{PRAISED_ATTRIBUTES}}**  
+**{{praisedAttributes}}**  
 Data or feedback on your most praised brand attributes. Include specific quotes, review snippets, or testimonials.  
 Example: "'Your team actually understands our industry' - CTO at mid-market SaaS company. 'We've never had a vendor respond this fast' - VP Operations at healthcare tech startup"
 
 ### Strategic direction
 
-**{{DESIRED_REPUTATION}}**  
+**{{desiredReputation}}**  
 What do you want to be known for? What's the reputation you're building toward?  
 Example: "The most responsive and reliable partner for scaling sales teams—the vendor you can count on when growth is chaotic"
 
-**{{GUARANTEED_DELIVERY}}**  
+**{{brandPromise}}**  
 What can you guarantee will happen every single time a customer interacts with you? Only include what you can truly, consistently deliver.  
 Example: "Every support ticket gets a human response within 2 hours during business hours, and a resolution path within 24 hours"
 
-**{{RETENTION_DRIVERS}}**  
+**{{retentionDrivers}}**  
 What makes your best customers stay loyal? Why don't they churn?  
 Example: "Customers who stay 3+ years say it's because we evolve with them—they don't have to switch vendors when they scale. They also mention our customer success team knows their business deeply"
 
 ### Operational reality
 
-**{{FAILURE_RESPONSE}}**  
+**{{failureResponse}}**  
 What happens when things go wrong? Describe your current approach to handling failures, complaints, or service breakdowns.  
 Example: "Currently, customer success manually escalates issues to engineering. Average resolution time is 4-7 days. No formal process for communicating progress to customers during that window"
 
-**{{FAILURE_SCENARIOS}}**  
+**{{failureScenarios}}**  
 List 3-5 realistic failure scenarios or breakdown points in your customer experience. Where do things typically go wrong?  
 Examples:  
 - "Onboarding takes longer than promised when customer has complex integrations"  
@@ -157,18 +157,18 @@ The output should demonstrate:
 [Paste all your prepared inputs here]
 
 ### Customer feedback
-- What customers consistently praise: {{CUSTOMER_PRAISE}}
-- Most repeated complaint: {{CUSTOMER_COMPLAINTS}}
-- Most praised attributes: {{PRAISED_ATTRIBUTES}}
+- What customers consistently praise: {{customerPraise}}
+- Most repeated complaint: {{customerComplaints}}
+- Most praised attributes: {{praisedAttributes}}
 
 ### Strategic direction
-- Desired reputation: {{DESIRED_REPUTATION}}
-- Guaranteed delivery: {{GUARANTEED_DELIVERY}}
-- Retention drivers: {{RETENTION_DRIVERS}}
+- Desired reputation: {{desiredReputation}}
+- Guaranteed delivery: {{brandPromise}}
+- Retention drivers: {{retentionDrivers}}
 
 ### Operational reality
-- Current failure response: {{FAILURE_RESPONSE}}
-- Potential failure scenarios: {{FAILURE_SCENARIOS}}
+- Current failure response: {{failureResponse}}
+- Potential failure scenarios: {{failureScenarios}}
 ```
 
 ---
