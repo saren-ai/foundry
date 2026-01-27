@@ -26,66 +26,66 @@ Fill out this form before running the prompt. The more specific you are, the sha
 
 ### Company profile
 
-**{{COMPANY_NAME}}**  
+**{{companyName}}**  
 Your company name
 
-**{{PRODUCT_SERVICE_DESCRIPTION}}**  
+**{{productDescription}}**  
 What you sell in 2-3 sentences—focus on the problem you solve, not feature lists
 
-**{{TARGET_MARKET_SEGMENTS}}**  
+**{{icpIndustries}}**  
 Who buys from you? Include industries, company sizes, specific roles.
 
-**{{COMPANY_SIZE_STAGE}}**  
+**{{companyStage}}**  
 Where are you? Choose one: Startup / Growth-stage / Established Enterprise
 
 ### Competitive intelligence
 
-**{{PRIMARY_COMPETITORS}}**  
+**{{directCompetitors}}**  
 List 3-5 companies you compete with most often in deals. Include their names and a one-line description if they're not well-known.
 
-**{{SECONDARY_COMPETITORS}}**  
+**{{indirectCompetitors}}**  
 Emerging or adjacent competitors on your radar. These might not be direct competitors today but could be threats tomorrow.
 
-**{{WIN_REASONS}}**  
+**{{whyWeWin}}**  
 Why do you typically win deals? Be specific: features, service quality, pricing model, relationships, faster implementation, better support, etc. Pull from sales notes or customer interviews.
 
-**{{LOSS_REASONS}}**  
+**{{whyWeLose}}**  
 Why do you typically lose deals? Be honest: feature gaps, pricing concerns, brand perception, implementation complexity, lack of integrations, etc.
 
-**{{COMPARISON_CRITERIA}}**  
+**{{comparisonCriteria}}**  
 What dimensions do prospects use to evaluate vendors? Examples: ease of integration, security certifications, customization options, price, support response time, scalability, user experience, etc.
 
-**{{COMPETITOR_WEAKNESSES}}**  
+**{{competitorWeaknesses}}**  
 Known vulnerabilities in competitor offerings, positioning, or go-to-market strategy. Examples: poor customer service, outdated technology, complex pricing, limited integrations, weak mobile experience, slow innovation pace, etc.
 
 ### Market dynamics
 
-**{{RECENT_MARKET_SHIFTS}}**  
+**{{marketShifts}}**  
 Any significant industry changes in the last 12-18 months that impact how you compete. Think: new regulations, buyer behavior changes, economic factors, consolidation, funding environment shifts, remote work impacts, etc.
 
-**{{EMERGING_COMPETITORS}}**  
+**{{emergingCompetitors}}**  
 New entrants or companies expanding into your space. Include startups that just raised funding or adjacent players moving into your category.
 
-**{{TECHNOLOGY_TRENDS}}**  
+**{{techTrends}}**  
 Relevant tech developments impacting your market. Examples: AI adoption, automation trends, platform shifts, API-first architectures, no-code movement, data privacy regulations, etc.
 
 ### Strategic boundaries
 
-**{{IDEAL_CUSTOMER_PROFILE}}**  
+**{{icpDescription}}**  
 Who is your best-fit customer? Include company size, industry, use case, pain points, tech stack, buying process. Reference your Target Customer Profiles if you've already created them.
 
-**{{DEALS_TO_AVOID}}**  
+**{{antiIcp}}**  
 Red flags or deal types that historically haven't worked out. Examples: companies under 50 employees, organizations without dedicated IT teams, prospects requiring custom development, price-sensitive buyers in certain verticals, etc.
 
 ### Supporting materials (optional but helpful)
 
-**{{EXISTING_COLLATERAL}}**  
+**{{existingCollateral}}**  
 Links to current positioning documents, website, pitch decks, or one-pagers.
 
-**{{WIN_LOSS_DATA}}**  
+**{{winLossData}}**  
 Any formal win/loss analysis, Gong call summaries, or customer feedback from recent deals.
 
-**{{SALES_TEAM_INSIGHTS}}**  
+**{{salesTeamInsights}}**  
 Common objections, trap questions that work, competitive situations your team faces most often, or internal competitive notes.
 
 **Pro tip:** The win/loss reasons and competitor weaknesses are the most critical inputs. If you don't have formal data, interview your top 3 sales reps and synthesize their insights. Real quotes from customer calls make everything more actionable.
@@ -139,7 +139,7 @@ Assess macro-environmental factors:
 
 ### 2. Head-to-head competitor comparison (table format)
 
-Create a detailed matrix comparing {{COMPANY_NAME}} against {{PRIMARY_COMPETITORS}} across:
+Create a detailed matrix comparing {{companyName}} against {{directCompetitors}} across:
 - Core product/service capabilities
 - Pricing model and typical deal size
 - Target customer segments
@@ -150,7 +150,7 @@ Create a detailed matrix comparing {{COMPANY_NAME}} against {{PRIMARY_COMPETITOR
 - Customer support model
 
 ### 3. Win/loss analysis & themes
-- **Common win scenarios:** Situations where {{COMPANY_NAME}} consistently wins
+- **Common win scenarios:** Situations where {{companyName}} consistently wins
 - **Common loss scenarios:** Patterns in lost deals
 - **Key differentiators that matter:** What actually influences buyer decisions
 - **Competitive gaps:** Where the company is vulnerable
@@ -159,8 +159,8 @@ Create a detailed matrix comparing {{COMPANY_NAME}} against {{PRIMARY_COMPETITOR
 ### 4. Trap-setting question bank (15-20 questions)
 
 Develop Challenger Sale-style questions organized by competitor:
-- Questions that highlight {{COMPANY_NAME}}'s unique strengths
-- Questions that expose specific competitor weaknesses from {{COMPETITOR_WEAKNESSES}}
+- Questions that highlight {{companyName}}'s unique strengths
+- Questions that expose specific competitor weaknesses from {{competitorWeaknesses}}
 - Questions that reframe evaluation criteria in favorable ways
 - Questions that uncover hidden costs/risks in competitive solutions
 
@@ -171,7 +171,7 @@ Format: Question | Why It Works | Ideal Follow-up
 Create clear criteria for:
 - **Green light deals:** High-probability wins with strong fit
 - **Yellow light deals:** Proceed with caution, requires specific conditions
-- **Red light deals:** Walk away scenarios based on {{DEALS_TO_AVOID}}
+- **Red light deals:** Walk away scenarios based on {{antiIcp}}
 
 Include scoring rubric with qualifying questions.
 
@@ -191,7 +191,7 @@ Identify:
 
 Based on all analysis above, create:
 
-**Positioning statement:** [For {{TARGET_MARKET_SEGMENTS}}] who [need/want], {{COMPANY_NAME}} is the [category] that [key benefit]. Unlike {{PRIMARY_COMPETITORS}}, we [unique differentiator].
+**Positioning statement:** [For {{icpIndustries}}] who [need/want], {{companyName}} is the [category] that [key benefit]. Unlike {{directCompetitors}}, we [unique differentiator].
 
 **3-5 messaging pillars:** Core themes that ladder up to positioning, each with supporting proof points
 
@@ -212,7 +212,7 @@ For each primary competitor, create a sales-ready battlecard:
 - **Actionable:** Sales and marketing teams should be able to use these immediately
 - **Honest:** Acknowledge real competitive strengths; credibility matters
 - **Strategic:** Focus on defensible differentiation, not just feature comparisons
-- **Data-informed:** Reference {{WIN_REASONS}}, {{LOSS_REASONS}}, and market trends
+- **Data-informed:** Reference {{whyWeWin}}, {{whyWeLose}}, and market trends
 - **Confident but not arrogant:** Professional competitive intelligence, not trash-talking
 
 ## Deliverable format
@@ -229,32 +229,32 @@ Use markdown formatting with clear headers, tables, and bullet points for scanna
 [Paste all your prepared inputs here]
 
 ### Company profile
-- Company name: {{COMPANY_NAME}}
-- Product/service: {{PRODUCT_SERVICE_DESCRIPTION}}
-- Target market: {{TARGET_MARKET_SEGMENTS}}
-- Company stage: {{COMPANY_SIZE_STAGE}}
+- Company name: {{companyName}}
+- Product/service: {{productDescription}}
+- Target market: {{icpIndustries}}
+- Company stage: {{companyStage}}
 
 ### Competitive intelligence
-- Primary competitors: {{PRIMARY_COMPETITORS}}
-- Secondary competitors: {{SECONDARY_COMPETITORS}}
-- Why we win: {{WIN_REASONS}}
-- Why we lose: {{LOSS_REASONS}}
-- Evaluation criteria: {{COMPARISON_CRITERIA}}
-- Competitor weaknesses: {{COMPETITOR_WEAKNESSES}}
+- Primary competitors: {{directCompetitors}}
+- Secondary competitors: {{indirectCompetitors}}
+- Why we win: {{whyWeWin}}
+- Why we lose: {{whyWeLose}}
+- Evaluation criteria: {{comparisonCriteria}}
+- Competitor weaknesses: {{competitorWeaknesses}}
 
 ### Market dynamics
-- Recent market shifts: {{RECENT_MARKET_SHIFTS}}
-- Emerging competitors: {{EMERGING_COMPETITORS}}
-- Technology trends: {{TECHNOLOGY_TRENDS}}
+- Recent market shifts: {{marketShifts}}
+- Emerging competitors: {{emergingCompetitors}}
+- Technology trends: {{techTrends}}
 
 ### Strategic boundaries
-- Ideal customer profile: {{IDEAL_CUSTOMER_PROFILE}}
-- Deals to avoid: {{DEALS_TO_AVOID}}
+- Ideal customer profile: {{icpDescription}}
+- Deals to avoid: {{antiIcp}}
 
 ### Supporting materials (if available)
-- Existing collateral: {{EXISTING_COLLATERAL}}
-- Win/loss data: {{WIN_LOSS_DATA}}
-- Sales team insights: {{SALES_TEAM_INSIGHTS}}
+- Existing collateral: {{existingCollateral}}
+- Win/loss data: {{winLossData}}
+- Sales team insights: {{salesTeamInsights}}
 ```
 
 ---
