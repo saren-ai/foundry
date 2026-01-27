@@ -24,7 +24,7 @@ Fill out this form before running the prompt. The more examples and performance 
 
 ### Content examples
 
-**{{CONTENT_EXAMPLES}}**  
+**{{contentExamples}}**  
 Provide 10-15 examples of content you're proud of. Include full text, screenshots, or links. Mix formats—emails, social posts, landing pages, ad copy, sales deck slides, case studies, etc.
 
 For each example, include:
@@ -32,7 +32,7 @@ For each example, include:
 - What format it is (sales email, LinkedIn post, landing page hero, etc.)
 - Who the audience was (persona, role, company size)
 
-**{{HIGH_PERFORMING_METRICS}}**  
+**{{highPerformingMetrics}}**  
 For each content example above, share specific results and performance data.  
 Examples:  
 - "Sales email: 38% open rate, 12% reply rate"  
@@ -40,13 +40,13 @@ Examples:
 - "Landing page: 18% conversion rate on demo requests"  
 - "Ad copy: 2.3% CTR, $45 CPA"
 
-**{{HIGH_ENGAGEMENT_SPECIFICS}}**  
+**{{highEngagementSpecifics}}**  
 Which specific pieces drove your best results? Identify your top 3-5 performers and explain what success looked like.  
 Example: "Cold outreach email with subject line 'Your reps are wasting 5 hours/week' got 41% reply rate—3x our average. We think the specific time metric in the subject made it concrete and urgent."
 
 ### Content to avoid
 
-**{{CONTENT_TO_AVOID}}**  
+**{{contentToAvoid}}**  
 Share 2-5 examples of content that "feels wrong" or off-brand. For each, explain why it doesn't work.  
 Examples:  
 - "This email feels too salesy and pushy—doesn't match our consultative approach"  
@@ -55,11 +55,11 @@ Examples:
 
 ### Context & guidelines
 
-**{{CONTENT_FORMATS}}**  
+**{{contentFormats}}**  
 List all content formats you regularly create. Check all that apply and add any missing formats.  
 Examples: Sales emails, Nurture emails, LinkedIn posts, Twitter/X posts, Sales deck slides, Landing pages, Ad copy (Facebook, LinkedIn, Google), Case studies, Blog posts, Product announcements, Webinar descriptions, etc.
 
-**{{TARGET_AUDIENCE}}**  
+**{{targetAudience}}**  
 Who is your primary audience? Include:
 - Job titles/roles
 - Industry/sectors  
@@ -68,7 +68,7 @@ Who is your primary audience? Include:
 
 Reference your Target Customer Profiles if you've already created them.
 
-**{{BRAND_VOICE_NOTES}}**  
+**{{voiceNotes}}**  
 Do you have existing brand voice guidelines? If so, include them or reference your Brand Voice & Tone doc. If not, describe your desired brand personality in 3-5 adjectives.
 
 **Pro tip:** Don't just share the prettiest or most polished examples. Share the ones that actually drove results—even if they're scrappy. A plain-text email that got 40% reply rate is worth more than a beautifully designed email that got 2%.
@@ -177,17 +177,17 @@ Organize your swipe file as follows:
 [Paste all your prepared inputs here]
 
 ### Content examples
-- Content examples (10-15): {{CONTENT_EXAMPLES}}
-- Performance metrics for each: {{HIGH_PERFORMING_METRICS}}
-- Top performers (3-5 with context): {{HIGH_ENGAGEMENT_SPECIFICS}}
+- Content examples (10-15): {{contentExamples}}
+- Performance metrics for each: {{highPerformingMetrics}}
+- Top performers (3-5 with context): {{highEngagementSpecifics}}
 
 ### Content to avoid
-- Examples that feel off-brand: {{CONTENT_TO_AVOID}}
+- Examples that feel off-brand: {{contentToAvoid}}
 
 ### Context & guidelines
-- Content formats used: {{CONTENT_FORMATS}}
-- Target audience: {{TARGET_AUDIENCE}}
-- Brand voice notes: {{BRAND_VOICE_NOTES}}
+- Content formats used: {{contentFormats}}
+- Target audience: {{targetAudience}}
+- Brand voice notes: {{voiceNotes}}
 ```
 
 ---
