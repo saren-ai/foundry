@@ -24,46 +24,46 @@ Fill out this form before running the prompt. The more specific your examples an
 
 ### Customer intelligence
 
-**{{CUSTOMER_PRIORITIES}}**  
+**{{customerPriorities}}**  
 What are the 3-5 things your customers care most about? Include specific pain points, business objectives, and success metrics they're measured on.  
 Example: "1) Reducing sales cycle length—reps are measured on time-to-close. 2) Increasing win rates against competitors. 3) Maintaining consistent messaging across a growing team. 4) Proving ROI to leadership within first quarter. 5) Avoiding lengthy, disruptive implementations"
 
-**{{BELIEF_SHIFTS}}**  
+**{{beliefShifts}}**  
 What beliefs or assumptions do you need to change in your market? What current misconceptions, outdated approaches, or status quo thinking prevents customers from seeing your value?  
 Example: "Belief to shift: 'Sales enablement is just a content library.' Reality we need to teach: 'Real enablement is about behavior change and rep consistency, not just organizing files.'"
 
-**{{WINNING_CONVERSATIONS}}**  
+**{{winningConversations}}**  
 What do your best sales conversations sound like? Include actual quotes, questions that land well, conversation patterns from top performers, or moments where prospects have "aha" insights.  
 Example: "Our best reps ask: 'How much time does your average rep spend searching for the right content to send?' Prospects usually say '3-5 hours a week.' Then we ask: 'What if your top performer's approach was automatically replicated across your entire team?' That's when they lean in."
 
 ### Content & market performance
 
-**{{HIGH_PERFORMING_CONTENT}}**  
+**{{highPerformingContent}}**  
 What content topics, formats, or messages have performed best? Include engagement metrics, conversion data, qualitative feedback, or patterns in what gets shared/saved/referenced.  
 Example: "Our 'Sales Velocity Calculator' tool gets 10x more conversions than any other lead magnet. Blog posts about 'onboarding new reps faster' have 3x higher engagement than posts about features. Case studies showing time-to-productivity improvements get requested most often in late-stage deals."
 
-**{{COMPETITIVE_LANDSCAPE}}**  
+**{{competitiveLandscape}}**  
 What competitor claims do you need to counter? List specific messaging, positioning angles, and market narratives from 2-3 key competitors.  
 Example: "Competitor A: 'We have the most comprehensive feature set and integrations.' Competitor B: 'We're the easiest to implement—up and running in 24 hours.' Competitor C: 'AI-powered recommendations mean reps don't have to think.'"
 
 ### Strategic differentiation
 
-**{{PRODUCT_STRATEGY}}**  
+**{{productStrategy}}**  
 What makes your product strategy, approach, or methodology unique? Include proprietary frameworks, exclusive capabilities, or distinctive approaches that only you offer.  
 Example: "We're the only platform that learns from won/lost deals, not just content consumption. Our algorithm analyzes what content was sent in deals that closed vs. deals that lost, and recommends based on deal stage + buyer profile + competitive situation. We have a proprietary 'Deal Context Engine' that competitors can't replicate."
 
 ### Optional context
 
-**{{BRAND_VOICE_GUIDELINES}}**  
+**{{voiceGuidelines}}**  
 If you've already defined your brand voice and tone, include it here or reference your Brand Voice & Tone doc.
 
-**{{EXISTING_MESSAGING}}**  
+**{{existingMessaging}}**  
 Any current messaging documents, positioning statements, or value props you already use.
 
-**{{TARGET_PERSONAS}}**  
+**{{buyerPersonas}}**  
 Names and brief descriptions of your target personas. Reference your Target Customer Profiles if you've already created them.
 
-**{{CUSTOMER_FEEDBACK}}**  
+**{{customerFeedback}}**  
 Recent customer feedback, win/loss analysis, or patterns from customer success conversations.
 
 **Pro tip:** The "winning conversations" section is gold. If you can pull actual quotes or moments from sales calls where prospects had breakthrough insights, those become the foundation for your pillar narratives. Use Gong, call recordings, or interview your top 3 reps.
@@ -156,22 +156,22 @@ For each pillar:
 [Paste all your prepared inputs here]
 
 ### Customer intelligence
-- Customer priorities: {{CUSTOMER_PRIORITIES}}
-- Belief shifts needed: {{BELIEF_SHIFTS}}
-- Winning conversations: {{WINNING_CONVERSATIONS}}
+- Customer priorities: {{customerPriorities}}
+- Belief shifts needed: {{beliefShifts}}
+- Winning conversations: {{winningConversations}}
 
 ### Content & market performance
-- High-performing content: {{HIGH_PERFORMING_CONTENT}}
-- Competitive landscape: {{COMPETITIVE_LANDSCAPE}}
+- High-performing content: {{highPerformingContent}}
+- Competitive landscape: {{competitiveLandscape}}
 
 ### Strategic differentiation
-- Product strategy: {{PRODUCT_STRATEGY}}
+- Product strategy: {{productStrategy}}
 
 ### Optional context (if available)
-- Brand voice guidelines: {{BRAND_VOICE_GUIDELINES}}
-- Existing messaging: {{EXISTING_MESSAGING}}
-- Target personas: {{TARGET_PERSONAS}}
-- Customer feedback: {{CUSTOMER_FEEDBACK}}
+- Brand voice guidelines: {{voiceGuidelines}}
+- Existing messaging: {{existingMessaging}}
+- Target personas: {{buyerPersonas}}
+- Customer feedback: {{customerFeedback}}
 ```
 
 ---
