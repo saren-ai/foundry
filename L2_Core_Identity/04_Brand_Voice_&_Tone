@@ -24,46 +24,46 @@ Fill out this form before running the prompt. The more specific your examples an
 
 ### Voice direction
 
-**{{BRAND_VOICE_ADJECTIVES}}**  
+**{{voiceAdjectives}}**  
 Provide 3-5 adjectives describing how you want your brand to sound.  
 Examples: professional, approachable, innovative, trustworthy, witty, confident, empathetic, bold, conversational, authoritative
 
-**{{VOICE_INSPIRATION_BRANDS}}**  
+**{{voiceDo}}**  
 List 2-3 companies whose brand voice you admire. For each, explain WHY you admire their voice (1-2 sentences).  
 Example: "Mailchimp - They make complex technical topics feel accessible without being condescending. Their voice is playful but never unprofessional."
 
-**{{VOICE_ANTI_EXAMPLES}}**  
+**{{voiceDont}}**  
 List 1-2 companies or voice styles you want to avoid. For each, explain WHY their voice doesn't resonate (1-2 sentences).  
 Example: "Generic tech startup voice - overly hyped, uses too many buzzwords like 'revolutionize' and 'disrupt,' feels inauthentic and exhausting."
 
 ### Content examples
 
-**{{EXISTING_CONTENT_EXAMPLES}}**  
+**{{contentExamples}}**  
 Share 2-4 pieces of existing content that "sound like you" or are closest to your desired voice. Include: website copy, emails, social posts, presentations, product descriptions, etc. For each piece, indicate what specifically feels right about it.
 
-**{{EXISTING_CONTENT_FEEDBACK}}**  
+**{{contentFeedback}}**  
 Share 1-2 examples of content that missed the mark. Explain what felt wrong or what you'd change. Include any feedback you received from customers or your team about your current communications.
 
 ### Company context
 
-**{{COMPANY_BACKGROUND}}**  
+**{{companyBackground}}**  
 Brief company description (2-3 sentences), primary products/services, target audience(s), and key differentiators.
 
-**{{BUSINESS_CONTEXT}}**  
+**{{businessContext}}**  
 Industry/market category, company stage (startup, growth, established), primary competitors (2-3), and your unique value proposition (draft is fine).
 
-**{{AUDIENCE_DETAILS}}**  
+**{{audienceDetails}}**  
 Primary audience persona(s) including titles, roles, and pain points. Also note secondary audiences, whether you're B2B/B2C/both, and the technical sophistication level of your audience.
 
 ### Optional but valuable
 
-**{{BRAND_PERSONALITY}}**  
+**{{personalityTraits}}**  
 If you've already defined brand personality traits or archetypes (e.g., "The Sage," "The Hero"), include them here.
 
-**{{COMMUNICATION_CONSTRAINTS}}**  
+**{{legalClaimLimits}}**  
 Any industry regulations, compliance requirements, language/terminology to avoid, or required legal disclaimers.
 
-**{{GEOGRAPHIC_CULTURAL_CONTEXT}}**  
+**{{geoCulturalContext}}**  
 Primary markets/regions, cultural considerations for voice/tone, and languages beyond English if relevant.
 
 **Pro tip:** For voice inspiration and anti-examples, pull actual quotes or copy from those brands. Showing specific examples of what you love (or hate) makes your voice guidelines way more precise than just saying "be professional."
@@ -157,23 +157,23 @@ Deliver the complete framework as a structured document with:
 [Paste all your prepared inputs here]
 
 ### Voice direction
-- Brand voice adjectives: {{BRAND_VOICE_ADJECTIVES}}
-- Voice inspiration brands: {{VOICE_INSPIRATION_BRANDS}}
-- Voice anti-examples: {{VOICE_ANTI_EXAMPLES}}
+- Brand voice adjectives: {{voiceAdjectives}}
+- Voice inspiration brands: {{voiceDo}}
+- Voice anti-examples: {{voiceDont}}
 
 ### Content examples
-- Existing content examples: {{EXISTING_CONTENT_EXAMPLES}}
-- Existing content feedback: {{EXISTING_CONTENT_FEEDBACK}}
+- Existing content examples: {{contentExamples}}
+- Existing content feedback: {{contentFeedback}}
 
 ### Company context
-- Company background: {{COMPANY_BACKGROUND}}
-- Business context: {{BUSINESS_CONTEXT}}
-- Audience details: {{AUDIENCE_DETAILS}}
+- Company background: {{companyBackground}}
+- Business context: {{businessContext}}
+- Audience details: {{audienceDetails}}
 
 ### Optional context (if available)
-- Brand personality: {{BRAND_PERSONALITY}}
-- Communication constraints: {{COMMUNICATION_CONSTRAINTS}}
-- Geographic/cultural context: {{GEOGRAPHIC_CULTURAL_CONTEXT}}
+- Brand personality: {{personalityTraits}}
+- Communication constraints: {{legalClaimLimits}}
+- Geographic/cultural context: {{geoCulturalContext}}
 ```
 
 ---
